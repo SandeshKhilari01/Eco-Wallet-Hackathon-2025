@@ -408,14 +408,14 @@
     }
   },
   {
-    "id": 25,
+    "id": 30,
     "name": "Plastic Water Bottle (Single-Use)",
     "brand": "AquaMax",
     "price": 20,
     "originalPrice": 25,
     "points": 0,
     "co2SavedKg": 0.0,
-    "image": "https://images.unsplash.com/photo-1607082349565-5386e1d5f65f?auto=format&fit=crop&w=800&q=80",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuA-L6ueHgMZDJlbtjxskRurNlgun5MOkfAx0cFy6o0Cssyw2ppvSgFODSvgGmA9x8yQUiWs0JcA6-CxlYrQEpQ_r8RErA-bm-6MUSlSUBUMG08I-TD9M8kH3KRsK0aJEuVrfFnAoS_GbcBsrx2ECBwomyHNJlh9X4GJHjR9xQeNPGdjhJSJ7HmFm8RCI1JyR3lDdcETbusvoeNLnUsAAjWXo7d8IffrpKjKN_A3-ixOeXOdifZa_0JiM8dpyQFfbwqYKAUr4ElOl_w",
     "badge": "",
     "tags": ["non-recyclable", "single-use"],
     "impact": {
@@ -425,14 +425,14 @@
     }
   },
   {
-    "id": 26,
+    "id": 31,
     "name": "Conventional Cotton T-Shirt",
     "brand": "FastWear",
     "price": 299,
     "originalPrice": 350,
     "points": 0,
     "co2SavedKg": 0.1,
-    "image": "https://images.unsplash.com/photo-1585386959984-a415522a7f57?auto=format&fit=crop&w=800&q=80",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCLmpM5HMCYuVbMhvT-X6tkGE15uP5O_zxJXT6TOxTow6tCh9_esSnBAlZOnYyfmafGRnZqPKyvH2-qSu7feP10TBBsN1QNmxXoKs9xT7I3ctgAbu8f15kZm4cQpbVYAvTKoJY_2eWv9UJKA9VzOZUeM7jZw7w1y0KTchED3UgA5KZ3d2R_V72jmnY9aTO4kZ9k3-SyatMNxUHufUwcA9Wjtzx_4jdrMoo1yuw32C03E_SUpJk3IofGVDO1oVBeeIMD-Wxomv0cCAw",
     "badge": "",
     "tags": ["chemical-dyed", "mass-produced"],
     "impact": {
@@ -442,14 +442,14 @@
     }
   },
   {
-    "id": 27,
+    "id": 32,
     "name": "Disposable Plastic Cutlery Pack",
     "brand": "QuickServe",
     "price": 50,
     "originalPrice": 60,
     "points": 0,
     "co2SavedKg": 0.0,
-    "image": "https://images.unsplash.com/photo-1580541836517-8d8c8ddf5ebf?auto=format&fit=crop&w=800&q=80",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuD5kl0BY11NRzBlbWE-6_m8A9BQJFk4Jhx7fAxM6hRAwS-CF_RxVknyKTQXnZNp7qbu3jECG-cryLttz7jEsZkRsFekUj5sp8Nhn-TzM9ObWC2FeycRujV4fTqBYQP68Rpa7DnVUHyexgyV0Em28lxFxpDaGz_lEIo87pWNoT5YxNRBGWZZgtEdtVdNkHdSy3Pxp8B70xlZK3fzz5YEJYKmhoIJT7Cf1P5gPF02ByU9L3_Vr7E3T_GKq6Ft22dfVjrzwkvxWtbQp3k",
     "badge": "",
     "tags": ["non-biodegradable", "disposable"],
     "impact": {
@@ -459,14 +459,14 @@
     }
   },
   {
-    "id": 28,
+    "id": 33,
     "name": "Conventional Dishwashing Liquid",
     "brand": "ShinyClean",
     "price": 110,
     "originalPrice": 140,
     "points": 0,
     "co2SavedKg": 0.0,
-    "image": "https://images.unsplash.com/photo-1648231521579-e5d431f71a95?auto=format&fit=crop&w=800&q=80",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuATQQXWgjXT06guRsZFDsZIpZqxfKcId83O948oSYVDF-bWhWubUJLp3EJDc_4mfBZbptGeF9nN8Etl33pivKWLafkzTSeoI4nIBndjOgaLwnZedJzgzqQfmMF52PIr8sVQx7-Nnkzl9OU4rljJHZFVzcRqTUSCGiwxtD6sl4rYQFz9g1ve-emNKymUVwb7QDbeROOetPt-cls-Ad1RjCmIP67yUVOPTj6_v_tsPWK-hrRWa0cmrhrYl72rvWrUobamfRSr9-FYn4M",
     "badge": "",
     "tags": ["chemical", "synthetic"],
     "impact": {
@@ -476,20 +476,122 @@
     }
   },
   {
-    "id": 29,
+    "id": 34,
     "name": "Regular Paper Towels",
     "brand": "WipeIt",
     "price": 90,
     "originalPrice": 120,
     "points": 0,
     "co2SavedKg": 0.0,
-    "image": "https://images.unsplash.com/photo-1620131261426-7bba401da0b8?auto=format&fit=crop&w=800&q=80",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDb5PXT1QlekxId9XTYv3IfsQUsMD5-NkxNaTP9QCVYbn80LDzeMyWlMwDQRtO0PgQoD4w_6HvAVBnF1AETTGXbJMhCYnihRUaH8vF7JwJgHnUN7nImMRIQ8o7pyb6lJQha9pBlVlCWDNUPTAixLVaxTEv7sjEkBJkUN-rB8UM4aiTuiyVAqvKno9Y4TQ6uAIT6ubZ7_lAlZn3J1zDqehjfp8TmzeFNYfexlR2DAdNt7XDt1lYWsZKivWG6vI6UVJ7c3Vm8U2MT3bk",
     "badge": "",
     "tags": ["bleached", "non-recycled"],
     "impact": {
       "emissions": "Deforestation & Pulp Bleaching",
       "packaging": "Plastic Wrap",
       "sourcing": "Virgin Wood Fibers"
+    }
+  },
+  {
+    "id": 41,
+    "name": "Regular Paper Towels",
+    "brand": "WipeIt",
+    "price": 90,
+    "originalPrice": 110,
+    "points": 0,
+    "co2SavedKg": 0.0,
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAf0Sp5OOqSTMnkKy-TArkvUIatGHUBA4hHimYwL5y9gh9XqiEaVwPZ6fC9CnAyBnf83JTeDep1TieHmRw42EbrIpRNbxLur5z7wEAAo6fyKSsCpOuvYMRK5JFacjoaalq0HOdwoVPDutzm2UxBkp_88zBCk_sutm9StD61Enb4Q-oXg3Q_5EECzqFK1_wFUKTHS9cgiP34p5XJTIuMj__xwEjf-XEHhKTVYY73e7C14o1c9eu5sx-z7DnzBlP6aaZ0X1RxKX2Fbxw",
+    "badge": "",
+    "tags": ["non-recycled", "bleached", "disposable"],
+    "impact": {
+      "emissions": "Deforestation & Pulp Bleaching",
+      "packaging": "Plastic Wrap",
+      "sourcing": "Virgin Wood Fibers"
+    }
+  },
+  {
+    "id": 42,
+    "name": "Aerosol Spray Cleaners (with CFCs)",
+    "brand": "SprayMax",
+    "price": 150,
+    "originalPrice": 170,
+    "points": 0,
+    "co2SavedKg": 0.0,
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAWE7pLjEIB8ycXeDcpMnfioPkZVRr-I3jzQ1sv_hTDK17R_Ech3kDHRwHgEGFqEp3AkiLdntkSzQSNGo7JgJHbKUgd01fCpeG8TVhtukfjmn9hv-xUCqNHEH1yDOtfgl_KZfqY4RYucnP8t1rVMk7wEGQ_gafODNQ4Trj8Il5sVQ84oL2jBmXpEmAoyvrXnv9jbO4Ak_Eblmon_aN3yW1hXpKCA9q3MlRAUCa2L15o-Da7m29tn73cEXV58pN6G3iiJDk-FGV69-Y",
+    "badge": "",
+    "tags": ["CFC-based", "chemical", "air-polluting"],
+    "impact": {
+      "emissions": "Ozone-Depleting Compounds",
+      "packaging": "Pressurized Metal Can",
+      "sourcing": "Synthetic Chemicals"
+    }
+  },
+  {
+    "id": 43,
+    "name": "Single-Use Aluminum Foil Trays",
+    "brand": "QuickTray",
+    "price": 75,
+    "originalPrice": 90,
+    "points": 0,
+    "co2SavedKg": 0.0,
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAkLhcvp8A6XtVVM9tm7BT41zztIIuibqnGgsLXufAAes_lDEGW4td3KBRSP3bOkmib355SXQ0IfBHw2JVKt9rrXFSdFUNRZJLgd9HghFCB2_FqU3rl5JgzeJGhQqnNja25tbYAXAu7-ETwMuE7ewMYvFv_B7ly4_lJEAvCUlSe5quL4fOctj99BwZUr1s6RRduTy6CeERxVOz4f3TlEFqHNjtzmhm2aB1BNwRgdZEGgRRc4nvwBfdeD89E7jlR_LnLRRJUjnlUyCY",
+    "badge": "",
+    "tags": ["disposable", "non-recyclable", "metal waste"],
+    "impact": {
+      "emissions": "High-Energy Aluminum Production",
+      "packaging": "Shrink Plastic Wrap",
+      "sourcing": "Virgin Mined Aluminum"
+    }
+  },
+  {
+    "id": 44,
+    "name": "Conventional Dishwashing Liquid",
+    "brand": "BubbleBright",
+    "price": 115,
+    "originalPrice": 140,
+    "points": 0,
+    "co2SavedKg": 0.0,
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBkPItakcPCCAjNRXpBAyg33199CnA9vK5dfoHXaTeqEZN8NBFrh66Nb9sM895sTZuvWwIrQ55lciThYdD_hbU18VlU9RDPbksXGPNfIZInWtZH7y2djHcD8nARYhDJPiMVJdrxc0jbxP6jwKvYhvxSpchveELaje7098fNoJGtKorUMKoL3jilMFuIJUbkUpoExItU5sJtWDJoYbWngHW1FGvfSTBk99ffGWZ0yyRaAoT2pru0xLo6O-Ec4eR-Duv1b2yxaO_omto",
+    "badge": "",
+    "tags": ["synthetic", "chemical-heavy", "non-biodegradable"],
+    "impact": {
+      "emissions": "Chemical-Rich Production Process",
+      "packaging": "Plastic Bottle",
+      "sourcing": "Petrochemical Surfactants"
+    }
+  },
+  {
+    "id": 45,
+    "name": "Conventional Cotton T-Shirt",
+    "brand": "UrbanBasics",
+    "price": 279,
+    "originalPrice": 320,
+    "points": 0,
+    "co2SavedKg": 0.1,
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCU0ZMOWXK_pI8Prq-_XI2o_l7hIiO_bjenMyyJ92GoH858dGL86UrHFP0_wluXQUpYNPPxF2_c5sOcWnrAS2hHZM_D1pT_SI7CXA7nEUT2OB7kRuzaGQhNL8OpXUCjtXJBEEjo4E1VpDBq6UFUBEMNsAMxqhjk4ry0eS8TZlxagAjZY_pBg7-50xogIwlQV9M5pqraBzNOz-I4pesEzQBxFvxzVLPLKzgx97x6vh8xMCTRg7gIPGyqaTGK_apM_YyNdoKm1B-QmGE",
+    "badge": "",
+    "tags": ["chemical-dyed", "mass-produced", "low durability"],
+    "impact": {
+      "emissions": "Standard Cotton Processing",
+      "packaging": "Plastic Wrap",
+      "sourcing": "Non-organic Cotton"
+    }
+  },
+  {
+    "id": 46,
+    "name": "Fast Fashion Jeans (Chemically Washed)",
+    "brand": "QuickDenim",
+    "price": 699,
+    "originalPrice": 849,
+    "points": 0,
+    "co2SavedKg": 0.0,
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuA6mg3CSTyB2B1YW0t_kVYuqDDewQt4MqHcX0gENYMXl56yixS5zRE4UqkAmUJ0lZ8Y8MB0m76AvIrCoT1-_-om3Smd6IYBHC3UB3PPtvKMxdBBcd7gVvCXG1y_VNumSfcg8T92ZFw2Yq1gJW0Di4JyPLDdZ2Gs6orv1ahX0u4aS6xDWGih_ECIzPjZbjZxnnRVP7D_wh5tnmWI0uLA71o4iGc4i4Y6g3hw-QoTC3OIhi0Qp4P4kJkOlbKykux8yivWJF95Zskn2rk",
+    "badge": "",
+    "tags": ["synthetic wash", "high water usage", "fast fashion"],
+    "impact": {
+      "emissions": "Chemical Washing and Dyeing",
+      "packaging": "Plastic Sleeve",
+      "sourcing": "Unregulated Labor & Synthetic Dyes"
     }
   }
 ]

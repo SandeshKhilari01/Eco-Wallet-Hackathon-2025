@@ -1,0 +1,72 @@
+/* Primary "Shop Now" button */
+.hero-button-primary {
+    background-color: #facc15; /* yellow-400 */
+    color: #1e3a8a; /* blue-900 */
+    font-weight: 600;
+    padding: 1rem 2rem;
+    border-radius: 9999px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .hero-button-primary:hover {
+    background-color: #fbbf24; /* yellow-500 */
+  }
+  
+  /* Secondary "Learn More" button */
+  .hero-button-secondary {
+    background-color: transparent;
+    color: white;
+    font-weight: 600;
+    padding: 1rem 2rem;
+    border-radius: 9999px;
+    border: 2px solid white;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .hero-button-secondary:hover {
+    background-color: white;
+    color: #2563eb; /* blue-600 */
+  }
+  
+  /* "View Deals" button */
+  .hero-button-view {
+    background-color: #2563eb; /* blue-600 */
+    color: white;
+    font-weight: 600;
+    padding: 0.75rem 1.5rem;
+    border-radius: 9999px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .hero-button-view:hover {
+    background-color: #1d4ed8; /* blue-700 */
+  }
+
+  /* Sparkathon animated test*/
+  .spark-badge {
+    background: linear-gradient(90deg, #0f3077, #1e40af); /* deep blue tones */
+    color: #facc15; /* yellow-400 */
+    padding: 0.4rem 1.2rem;
+    font-size: 0.9rem;
+    font-weight: 700;
+    border-radius: 10px;
+    font-family: 'Fira Code', 'Courier New', monospace;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    box-shadow: 0 0 10px rgba(37, 99, 235, 0.6);
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .spark-badge:hover {
+    transform: scale(1.26);
+    box-shadow: 0 0 50px rgba(234, 179, 8, 0.8); /* yellow-400 glow */
+  }
+  

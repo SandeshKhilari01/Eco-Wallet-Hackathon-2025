@@ -1,0 +1,148 @@
+/* Header Container */
+.header {
+    background-color: #2563eb; /* Tailwind's bg-blue-600 */
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 50;
+  }
+  
+  /* Top bar */
+  .header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+    border-bottom: 1px solid #3b82f6; /* border-blue-500 */
+  }
+  
+  .header-top .location,
+  .header-top .account {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  /* Main header section */
+  .header-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #2563eb;
+  }
+  
+  /* Left section */
+  .header-left {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .header-logo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+  }
+
+  .header-logo-img {
+    height: 40px;
+    object-fit: contain;
+  }
+  
+  
+  .header-button {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .header-button:hover,
+  .header-link:hover {
+    color: #facc15; /* yellow-300 */
+  }
+  
+  .header-link {
+    color: white;
+    cursor: pointer;
+  }
+  
+  /* Search bar */
+  .header-search-container {
+    flex: 1;
+    max-width: 32rem;
+    margin: 0 2rem;
+    position: relative;
+    background-color: aliceblue;
+    border-radius: 9999px;
+  }
+  
+  .header-search-input {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    padding-right: 4rem;
+    border-radius: 9999px;
+    border: none;
+    color: #1f2937; /* text-gray-800 */
+    font-size: 1rem;
+  }
+  
+  .header-search-input::placeholder {
+    color: #6b7280; /* placeholder-gray-500 */
+  }
+  
+  .header-search-button {
+    position: absolute;
+    right: 0.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #facc15; /* yellow-400 */
+    padding: 0.5rem;
+    border-radius: 9999px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .header-search-button:hover {
+    background-color: #fbbf24; /* yellow-500 */
+  }
+  
+  /* Right icons */
+  .header-icons {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  
+  .header-icon {
+    color: white;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .header-icon:hover {
+    color: #facc15;
+  }
+  
+  .header-cart-badge {
+    position: absolute;
+    top: -0.5rem;
+    right: -0.5rem;
+    background-color: #facc15;
+    color: #2563eb;
+    font-size: 0.75rem;
+    font-weight: bold;
+    border-radius: 9999px;
+    width: 1.25rem;
+    height: 1.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  

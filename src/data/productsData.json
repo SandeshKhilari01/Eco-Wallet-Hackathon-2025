@@ -1,0 +1,500 @@
+[
+  {
+    "id": 1,
+    "name": "Organic Bedding & Linens",
+    "brand": "NatureSleep",
+    "price": 1200,
+    "originalPrice": 1450,
+    "points": 100,
+    "co2SavedKg": 2.5,
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuB47Q7M0k-b5gBFZjEDlWT_4pJxvvxum56XsOFLbVBY5pueeXzaM4umhiGRm-HeOWpZfzHrcnntTrbC_EeXxOdcSNbTefzy2qtCEgH5oANZUJ2zASiW1oBNGAWRzKRaLafX0giAJeNE-mccdBHseyjkrAb1Nz23-3IR0IlYsfSnLu6EKcoN0Z-2BVgg6fDPpdRDbPRcczpKYaGGachSmFdUNdB5i4n-ZSKsKRBbCelsbHI0whpLukWWqFNGBb1c5rsyiaVxT41TJm8",
+    "badge": "Built for Better",
+    "tags": ["organic", "chemical-free", "sustainable"],
+    "impact": {
+      "emissions": "Low Impact Dyeing Process",
+      "packaging": "Cloth Reusable Bag",
+      "sourcing": "Certified Organic Cotton"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Organic Apples",
+    "brand": "GreenChoice India",
+    "price": 250,
+    "originalPrice": 300,
+    "points": 50,
+    "co2SavedKg": 0.75,
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCy51GDitZHiLvnGbfLOFLfDsQMhT9YZ3vY8xoGe2eGY_hu7SO6oOeIlsJgQXjXPMsGtNBnUU8A1dm-k1z9IfB0bpu7yx4zfHs4mwCvXkl0MOa879SxDrriY2pAoWFXKx6IHfJu4sK1nGVviA8382o2XRh-Rxwnw6USQDagCPCPVccV5XHWPCep44V1u_Rk0ARMbvc0cFXwFseONnr7OMFv8HGQ4afx8fWP-fywYfY4mlKY5ZSpEu9_zEJSyP-cJ1zsc31u2-eC10Q",
+    "badge": "Built for Better",
+    "tags": ["eco-friendly", "recyclable", "verified"],
+    "impact": {
+      "emissions": "Low Emission Supply Chain",
+      "packaging": "100% Recyclable Packaging",
+      "sourcing": "Ethically Sourced Materials"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Fair Trade Coffee Beans",
+    "brand": "GreenChoice India",
+    "price": 450,
+    "originalPrice": 500,
+    "points": 60,
+    "co2SavedKg": 0.9,
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAGgvSsYLPw4AUuFtkSnR4uwPLcVoX_M3OiPkexxW4W7idFBgiz1AQPDpOa8IfA1B9e2TEmv5-4vQkMU7fQbJZMPvaCd77J-8MDxkXibkXCb1h7NUQ2orq2VtU303vgO43QBl4Te5aUB9U2Xi9Lhe01BzIp0Oasrhj-wHhcjW1ugS__Oe2NacxGEtAQm3MD4wb0ruo609CB1HMt0Joo6XEvNuuV2cxYSt8DQSRwHJey7rjsWtiIhXsFwkNrwIPDeE86_xgY15hsdTs",
+    "badge": "Built for Better",
+    "tags": ["organic", "fair-trade", "eco-friendly"],
+    "impact": {
+      "emissions": "Sourced from Low Emission Farms",
+      "packaging": "Compostable Coffee Bags",
+      "sourcing": "Certified Fair Trade Farmers"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Organic Cotton T-Shirt",
+    "brand": "EcoWear India",
+    "price": 699,
+    "originalPrice": 799,
+    "points": 70,
+    "co2SavedKg": 1.2,
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAcusxMKpDBr4yVozNO4ssnzIYphA3UxAFvV6T7BKy8EX24Si9BJZ9pzRZOjO2z1gfGLC1JfcNl4OeAjhDy5ItQWLoa7eahwCUI3KR58o1R2tOaoIwLNQOaMmJa16_PkpvgA-dRlr7mp__a_MMsygIePmxKgYwXS-zImx9lINTT2tnP5EjaICRcuat7ZrkBlim03W2aRDM4QL9A8YGzBbpD01is3KLR8ocoaomGswZZyiNTZ_4RIi-v1Nj7xX4cDSBkcHGfqwhfCHI",
+    "badge": "Built for Better",
+    "tags": ["organic", "sustainable-fabric", "fair-wage"],
+    "impact": {
+      "emissions": "Produced with Renewable Energy",
+      "packaging": "Zero Plastic Packaging",
+      "sourcing": "Locally Sourced Organic Cotton"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Recycled Paper Towels",
+    "brand": "EcoEssentials",
+    "price": 120,
+    "originalPrice": 150,
+    "points": 25,
+    "co2SavedKg": 0.4,
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCNRY6zKUtEH_T3rVe-uF7lDM5k_d_dm3_JyQUEtldZPSNWA8vCD8bmUOUn31VZ3y_SKT_v5l0581_SjFCI1KOGh4YUStW695v3AHq4Q16kFqu7oxhVzcxLdx68u2fy499MVfXybpv_5e8qfMvQYvyjBQT1oKsCCP3x9HhKQUaSUXd4YYGcxSlRy_ni2G-rxmGKhQ0rhu1eh0iPodiO6TlAodcDCrcloEMmzvm5h6kTEdrdPeLesvzqwNTdCTPGVtQEYqhdkKCEHPk",
+    "badge": "Built for Better",
+    "tags": ["recycled", "eco-friendly", "zero-waste"],
+    "impact": {
+      "emissions": "Minimal Manufacturing Emissions",
+      "packaging": "Biodegradable Packaging",
+      "sourcing": "Made from Post-Consumer Recycled Paper"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Organic Fruits & Vegetables",
+    "brand": "FarmFresh India",
+    "price": 320,
+    "originalPrice": 390,
+    "points": 55,
+    "co2SavedKg": 1.1,
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBWgl6uouGhXtzCOczjFFI8I5HxG2T_Cbi9ul_mkRt2kr3RGkgjEZtlFcrG4BKZMAT5l76gjpUsy3iKyApW-Lv_qefmEqpOBEPqAZbsw_UfKtuGqLePB59ovXokBR6zkgUugYMq8_t4zRkJiLPPJCqGqI5fgWADL251YWFSV9WSKyGhHRsiR-8gOJnYt2a_uRMvz6k2ng95fH8zBYdTiGMCBZxbyyp2yRLedU0JmS2guTM-tttbaPvE4G29kycbonbpUBEpZ919XLI",
+    "badge": "Built for Better",
+    "tags": ["organic", "locally-sourced", "chemical-free"],
+    "impact": {
+      "emissions": "Reduced Transportation Emissions",
+      "packaging": "Minimal Biodegradable Packaging",
+      "sourcing": "Direct from Local Organic Farms"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Fair Trade Coffee & Tea",
+    "brand": "EthicBrew India",
+    "price": 480,
+    "originalPrice": 540,
+    "points": 65,
+    "co2SavedKg": 0.85,
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAKHyCn27wWGfQMx07kid7onHPdeAkrwnccFydmHQzu5piSMHgQPmjQuSJfZ7hHb_10_sNGUeNkNytInyq-SmFuVCt65oBhxyoxfg8ch-SjHJI7sMykC5l6cxW46mUdVb7rvFnsiPTM0Fik7MiOH3ceADkxOlbsoHIAu-CFWDtVPJD8HmbLQcQtGIDoaLQe3nHO-I7EwWJDEr2tvVEGmBczWBRzd1QqTMuhItR0X-TjnmDSfH3P13uGiAlmvqJlG9j8kELuNpS4KR4",
+    "badge": "Built for Better",
+    "tags": ["fair-trade", "organic", "sustainable"],
+    "impact": {
+      "emissions": "Ethical Farming with Low Carbon Practices",
+      "packaging": "Plastic-Free Compostable Pouches",
+      "sourcing": "Sourced from Certified Fair Trade Co-ops"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Organic Baby Food",
+    "brand": "LittleSprout",
+    "price": 180,
+    "originalPrice": 220,
+    "points": 35,
+    "co2SavedKg": 0.5,
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuB2KT8W27H9rC3ojwaBP4DqeXJQKiRMxgb5a3F5n78lnFRgsDtL8Xi_sn5TAP_AdyC6yX1KUnOqUjwFA2aCeuFjxJ7kSoTndcrYI4ZAdtjiQeK8ETekxyvT_IRQ8X9iZhxc_x-M2ja2vc4cjgGFBdpA5KMGW9rjUzuzmVu3n7cu1oHFj3KWpbSo64IiSc8WivkU00ViPhpLaTDSuh-xCMhlCQx2KwsNbMMSITTf7QEtTxR7vYXaBjwmVNwAfyPHFtzCfH5in7Us3aU",
+    "badge": "Built for Better",
+    "tags": ["organic", "non-GMO", "baby-safe"],
+    "impact": {
+      "emissions": "Clean Processing with Low Energy Usage",
+      "packaging": "BPA-Free Recyclable Pouches",
+      "sourcing": "Certified Organic Ingredients Only"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Recycled Paper Towels / Tissues",
+    "brand": "EcoEssentials",
+    "price": 140,
+    "originalPrice": 180,
+    "points": 30,
+    "co2SavedKg": 0.45,
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCCgmkXC00Vm89hc4JZVtyyZs4oWB7Qb74jUjMOSZFDQDb4YIcKImFGOeAcDXIDL5e_OIwJ-bnCobUN2J1rjQh19-f13X-WkV1b2YhwdGa33rTS-ke5NPcRdrTCUUfIGEvumak0CjG_olEdB7fcqTxCy6dkah4PkVmaslLhO0eAgxQQjM33_u9YVLZrlvXMuXtwbqHmg6YjymlpHep-SJf2D4RcyI9mqjoKA8zWrDJ1KwCZJXYHvGkZqsevg446iAl178XlAvZP0y4",
+    "badge": "Built for Better",
+    "tags": ["recycled", "plastic-free", "sustainable"],
+    "impact": {
+      "emissions": "Made with 100% Recycled Fibers",
+      "packaging": "Compostable Wrapping",
+      "sourcing": "Responsibly Sourced from Paper Waste"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Eco-Friendly Detergent",
+    "brand": "NatureWash",
+    "price": 260,
+    "originalPrice": 310,
+    "points": 50,
+    "co2SavedKg": 0.8,
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCbYZsK0bKD8DM7s4RSzz7GbUABkAYZgxvQ185vzR6sQO5SrakOvMGRATvvPWN8S1BR4kC0_84MK8aGOOtC3xOK35TaO6G1WAm0ZUtaRuBEYFcXj3TLKJGTDHygyZafIyCVnCOzjpfenc80PYU9-Xo08JMpEvFS2098Tq6q40NBRm-DFNVH_XNH5qJUrU75oCs_mi2ArkNIeO9h2TEuDKWpJDlEk8s1vPnRBLz2a8JkAb5j4xFgaFTzoeoIU56xsg4K7_NryC35reY",
+    "badge": "Built for Better",
+    "tags": ["non-toxic", "bio-degradable", "greywater safe"],
+    "impact": {
+      "emissions": "Low-Energy Production Process",
+      "packaging": "100% Recyclable Bottle",
+      "sourcing": "Plant-Based Ingredients"
+    }
+  },
+  {
+    "id": 11,
+    "name": "Plant-Based Cleaning Products",
+    "brand": "CleanEarth",
+    "price": 300,
+    "originalPrice": 360,
+    "points": 60,
+    "co2SavedKg": 1.0,
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuB-oDQu-ai4WO8uu8jAg5yvEEeGqgIeMUdyJwqrhXOgslcudnOmDDIXNHU55FJRqvUta5haCZ34f2rGN1w4RCy_AulQoTnx-4kPSnTqZGmZsP7c7THPZI0bFTTgTVzeTfwA-hGmV9A9V7nbxubGd5D6YKbftl8S7Rwg_PxsH3ra7CXiJrQ2bvtxhlaVEOd-IG3bnkE-WgaQZIko-jE3hDsVsR797eGVDS2_kC6i0oCDIdMsXrYUMbphrxwnACKGjLXXplpqdgRXg5Y",
+    "badge": "Built for Better",
+    "tags": ["plant-based", "non-toxic", "eco-friendly"],
+    "impact": {
+      "emissions": "Zero Emission Manufacturing",
+      "packaging": "Reusable Spray Bottles",
+      "sourcing": "Derived from Renewable Plant Sources"
+    }
+  },
+  {
+    "id": 12,
+    "name": "Energy-Efficient LED Bulbs",
+    "brand": "EcoBright",
+    "price": 180,
+    "originalPrice": 230,
+    "points": 35,
+    "co2SavedKg": 0.6,
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuByiWpbWOux6Qht4eeWYrMwDex5yRAiq-Ox06CpwLMA5wVAA0hQnMPyVSJmg_TB4G3mtzJsXGi3hd38BT72wfeG9UWNehUFyvh1SvkMFyt6ynvfm-Kl3xWTbeL2KWV818-V0phU2RiFpoGzg7am2B9_Ly3ZFC-oAtt3t-NoqjEvAsp6J4eMqoSmFBwAan2VJ9j66XyuoUzdk4YdNjlUUXhAb7wk4ItZwP9y2i0Md1epEY69abexJG7JZ8IRuVmrAVWW99JEEL2rxCA",
+    "badge": "Built for Better",
+    "tags": ["energy-saving", "long-lasting", "eco-certified"],
+    "impact": {
+      "emissions": "Reduces Energy Consumption by 80%",
+      "packaging": "Plastic-Free Packaging",
+      "sourcing": "RoHS Compliant Components"
+    }
+  },
+  {
+    "id": 13,
+    "name": "Recycled / Upcycled Furniture",
+    "brand": "GreenNest",
+    "price": 2200,
+    "originalPrice": 2800,
+    "points": 300,
+    "co2SavedKg": 5.2,
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDdlczmnhiucnyZbWJ8UoTNdZzkKcVXbZEXPvKKsUYWlzTI1rEaUUrvqKx9KazTorQqzJQjFPCB10jpJOF1kRhW54CZay_s7vCiLNPpE_YZATW6Wg_GkhC_AR1oprB7UHefXm3uL_xMDIOke5d51ncfiocs692wIm2X29XZe5nNjnFvPh0pndvRSo2PJQTiJW_OXdJQIMfDxgRn4kHuG_J2EYmI7lXoNesen0OOCXHfaKBD7q5Iwb9N_W5v9yXLTKBaoUvbOtDcacE",
+    "badge": "Built for Better",
+    "tags": ["upcycled", "low-emission", "locally-made"],
+    "impact": {
+      "emissions": "Crafted from Reclaimed Wood",
+      "packaging": "No Plastic, Only Cardboard",
+      "sourcing": "Sourced from Urban Salvage"
+    }
+  },
+  {
+    "id": 14,
+    "name": "Organic Cotton T-Shirts",
+    "brand": "EcoWear",
+    "price": 499,
+    "originalPrice": 599,
+    "points": 70,
+    "co2SavedKg": 1.3,
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCwMJrB_YwZS2ugFj0E3-mzj4FG1ZnnCGAJ1Nv8BkvdGthRHexsOk5ULuplBA-mv8gKA_CqjuNhpaXhGRdbBxp89RDrCoUZHe96C7UA5YQAREosPNlvHz1bdJtH0LU25UwtFtIsXzGnOZ3NHB67m1-X8eNaFbQY8-uyC2p7eC6D2weYFZq-Cgxj2bW2i0j6av_nOzkaJ1WiR_MSka7xgWPzSQM6S9nMevZ2tyQ7MXp0voGvIN4Uw1zLhdXxLxMtobpAs9RwQneIucc",
+    "badge": "Built for Better",
+    "tags": ["organic", "cruelty-free", "recyclable"],
+    "impact": {
+      "emissions": "50% Lower Carbon Footprint",
+      "packaging": "Biodegradable Packaging",
+      "sourcing": "Certified Organic Cotton"
+    }
+  },
+  {
+    "id": 15,
+    "name": "Sustainable Baby Diapers",
+    "brand": "EcoBaby",
+    "price": 450,
+    "originalPrice": 520,
+    "points": 65,
+    "co2SavedKg": 0.9,
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDTzSHRr6b-YaXoHI7M41EgF4bUQA4kBByGPQxKI5QZZAVwkUfDsAbo_su3CGSeIxHGm4vMgFpDcbvxJseR83Ab7LtuEsW8NrsvXcOqPiqMujduzUQiHj2R8VtCxRfLof9yZQ8aFDmMnItzeMdmKyDEPtaje2YoKaqbKElvLWjVh8pXr2a8SshF2rl61qdYvYUN8azj4mewC7pNC6fGVZo-M9y0F579tNIn59zRYtKqX48c5lXiShQaTDV2UcshE6rmkOKFIpDXhkU",
+    "badge": "Built for Better",
+    "tags": ["eco-friendly", "biodegradable", "safe-for-babies"],
+    "impact": {
+      "emissions": "Reduces Landfill Waste Significantly",
+      "packaging": "Compostable Packaging",
+      "sourcing": "Sustainably Harvested Materials"
+    }
+  },
+  {
+    "id": 16,
+    "name": "Bamboo Toothbrushes",
+    "brand": "GreenBrush",
+    "price": 120,
+    "originalPrice": 150,
+    "points": 25,
+    "co2SavedKg": 0.4,
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAFWts8Ilzrqaupwn28qILWPi6qGjXcQjxYHAI0aPnEk7QX2hdNB_gx-alu1Q9yZHpumKwILvrQBhrgHXY8P6wXBgeCSru-4yThLq7hYwzG-L15Z6nTLtJXQ3Eews3H-W0SL6kmSIk8fOaB2r73lDEm4FELFD361ztMzafXSUcajw1_XTunlQ-6hjD4IXvVfIHAmGSbxOkSQWhLd6IUo1K5rAmksSVEsIS53qxWZb2JAhlKzj7HeAv3V3bO3NPDqFUJ5eCy7udiWdI",
+    "badge": "Built for Better",
+    "tags": ["biodegradable", "natural", "zero-waste"],
+    "impact": {
+      "emissions": "No Plastic Waste Contribution",
+      "packaging": "100% Recyclable Box",
+      "sourcing": "Made from Sustainable Bamboo"
+    }
+  },
+  {
+    "id": 17,
+    "name": "Vegan / Cruelty-Free Beauty Products",
+    "brand": "NatureGlow",
+    "price": 799,
+    "originalPrice": 899,
+    "points": 95,
+    "co2SavedKg": 1.5,
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCWgSy1gfURlLRdkwSj8idHVXHeAK3QC6BGlX83j9vXR54l5Ls8sa1d4Nw057Nx8TVP5GXa1VxvREFtndDdj1rLm0YKxnPMXwC8sCCYD8VofvRuviQlUQVnVg1ziOEbGmj2I15wWXUNitWd6S0U1oL6Zeld9uePfuPOXrE_1h4K1ouCGh3fsLZBpx5rMUujLwNDHYias25PzJFu4b_-Z6PmP9Fg5ExBwbW0YDzZzrjio04ICD_0W9Lz1Z_tmKCdOgttvadJzW4An2Q0",
+    "badge": "Built for Better",
+    "tags": ["vegan", "cruelty-free", "natural-ingredients"],
+    "impact": {
+      "emissions": "No Animal Testing or Animal-Based Products",
+      "packaging": "Glass Bottles & Paper Labels",
+      "sourcing": "Ethically Sourced Botanicals"
+    }
+  },
+  {
+    "id": 18,
+    "name": "Refillable Personal Care Products (Shampoo, Conditioner)",
+    "brand": "Refill & Reuse Co.",
+    "price": 350,
+    "originalPrice": 420,
+    "points": 55,
+    "co2SavedKg": 1.1,
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDbdKiS8-DV6etTM6imDEqbNzmS0Pl_1w9WSgV5km_GIpidc5Qam3FKh0sk2o09p7w4qPNv3OMjybuvAnqPQQCdN--q8vz0e5dwZYjITwgtdtu8iJA5EswrO81py_1D91CeZCU5ywDnQwOGW4YMlaAPrbhjwRXOX4VcxB73UVGfEjcrADF9SqdKPz-ipmw48vgE7hWu2Dy-LIwiLV7eZ1BkiWCOYRKK98p8Z8FxVFulWDWJCGQ19OCTekd3BGYmm8-amxdcb860jK0",
+    "badge": "Built for Better",
+    "tags": ["refillable", "eco-friendly", "zero-waste"],
+    "impact": {
+      "emissions": "Reduces Single-Use Plastic Bottles",
+      "packaging": "Glass or Aluminum Refill Containers",
+      "sourcing": "Locally Produced Ingredients"
+    }
+  },
+  {
+    "id": 19,
+    "name": "Eco-Friendly Feminine Hygiene Products",
+    "brand": "GreenCare Essentials",
+    "price": 275,
+    "originalPrice": 320,
+    "points": 45,
+    "co2SavedKg": 0.8,
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAtCHLLF68GkvtRjTTxUXCHNR4Ze8bKSV2jzKZSoGiFy6SXMupCZM9bU51YZKMKzMZvf0K6%20JQiDqQ66x4dovPy6qYDREYgAjR88rER9cRcqQSNizNxZQ7_eBl6lX0BObSbzdLn-Ze7ZtkUFFYSv9_-CsNnic98MzNS289RxYHjE0vWeJOks6fHyEpHialOWlcAcizHQySOImY6VaWInAL-nYg_iXhBQqyfQ1_4eS-RCPDQM-VMgQE8zgV74OPcmVuHNIDVfrJ76xr0",
+    "badge": "Built for Better",
+    "tags": ["biodegradable", "plastic-free", "safe"],
+    "impact": {
+      "emissions": "Minimized Carbon Footprint in Manufacturing",
+      "packaging": "100% Compostable",
+      "sourcing": "Certified Organic Cotton"
+    }
+  },
+  {
+    "id": 20,
+    "name": "Reusable Water Bottle",
+    "brand": "GreenChoice India",
+    "price": 200,
+    "originalPrice": 250,
+    "points": 40,
+    "co2SavedKg": 0.6,
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDM1zBMwsCYLPWcnsFfiKrgHBi3lrPoD-ACrDiLPt-qEy-jNkgx81lo2AU53LQTcspwikqkjWSsBgWrP5cexXJ8i9Qi5r4u7JcZcZF66pDFofHX239HrhN7XRRYNDJTe7FqGkGJ3DqV-9TjL3iCDIRd4KyCbc0P3pPTQU0s5JG5oDmowyvwqKPmir8UtWKMNqAFUUYNYql87UZkXJrGzrK3quuhUdyoCDJTh766ZlFYFqOdWpm7bqFKk8dB3BaQboTy47_9i4djO3g",
+    "badge": "Built for Better",
+    "tags": ["eco-friendly", "recyclable", "verified"],
+    "impact": {
+      "emissions": "Low Emission Supply Chain",
+      "packaging": "100% Recyclable Packaging",
+      "sourcing": "Ethically Sourced Materials"
+    }
+  },
+  {
+    "id": 21,
+    "name": "Solar-Powered Gadgets (Lights, Chargers)",
+    "brand": "SunCharge Co.",
+    "price": 450,
+    "originalPrice": 550,
+    "points": 70,
+    "co2SavedKg": 1.8,
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuD6hgTesiXbGyon56s3XEM4uQ_PyKhzJcKEWAUspOABx6xKHoNJxWBXcGhleqmr5OvSt09LKneDRKiJDeZ7tSoEdwbhTLBgn3pWgljVnr8YqNI5VjjWYCiYZ2WCGdVp41D0vphSZzzyQ7aze8rq-oiaiFFHE-VHDyGIe-JpOUUDqCv0JRI3C8fBtLNmUNpJj4pU_rm7B_3JeQb2Yc7r_A2hxAWKvG7Di_NToA_6Zb9LE1iZkTlXAoaagl96m8H0KovAjsWqmdF8ju8",
+    "badge": "Built for Better",
+    "tags": ["solar-powered", "renewable", "off-grid"],
+    "impact": {
+      "emissions": "Zero Operational Emissions",
+      "packaging": "Compact Recyclable Box",
+      "sourcing": "Sustainable Energy Components"
+    }
+  },
+  {
+    "id": 22,
+    "name": "Eco-Friendly Yoga Mats",
+    "brand": "ZenEarth",
+    "price": 600,
+    "originalPrice": 750,
+    "points": 80,
+    "co2SavedKg": 1.2,
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCHzLhBySIv9ipyrBsqQGmifQHsRA1z4WVUxY9BtDGsf2iR6BdhYFyVbKTZucUH3gh9mTexoHehwF7fH-mRCr4-xg9g4Up3x-VdIm9DPKlCZFV_sxuUTon4D5MGb21kgfhqKWf1SAHe93RYTDXPyhwEA5gWBCjCFfS5fAVBtcJFP-PkjILPrvoQFYFk2ocbQ6RviC5LmVGeVgbjRA_Gr-E4jxpCuIEQfnGtaCum99KSTtvZ2HBnBqEse-TLiD3WiTReUgVHRcLY-xw",
+    "badge": "Built for Better",
+    "tags": ["biodegradable", "non-toxic", "natural"],
+    "impact": {
+      "emissions": "Eco-Manufacturing Process",
+      "packaging": "Minimal Plastic-Free Wrap",
+      "sourcing": "Natural Rubber and Jute"
+    }
+  },
+  {
+    "id": 23,
+    "name": "Organic Bedding & Linens",
+    "brand": "NatureSleep",
+    "price": 1200,
+    "originalPrice": 1450,
+    "points": 100,
+    "co2SavedKg": 2.5,
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuB47Q7M0k-b5gBFZjEDlWT_4pJxvvxum56XsOFLbVBY5pueeXzaM4umhiGRm-HeOWpZfzHrcnntTrbC_EeXxOdcSNbTefzy2qtCEgH5oANZUJ2zASiW1oBNGAWRzKRaLafX0giAJeNE-mccdBHseyjkrAb1Nz23-3IR0IlYsfSnLu6EKcoN0Z-2BVgg6fDPpdRDbPRcczpKYaGGachSmFdUNdB5i4n-ZSKsKRBbCelsbHI0whpLukWWqFNGBb1c5rsyiaVxT41TJm8",
+    "badge": "Built for Better",
+    "tags": ["organic", "chemical-free", "sustainable"],
+    "impact": {
+      "emissions": "Low Impact Dyeing Process",
+      "packaging": "Cloth Reusable Bag",
+      "sourcing": "Certified Organic Cotton"
+    }
+  },
+  {
+    "id": 24,
+    "name": "Reusable Shopping Bags",
+    "brand": "EcoCarry",
+    "price": 180,
+    "originalPrice": 220,
+    "points": 35,
+    "co2SavedKg": 0.6,
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAd2T7Jq3hzjS0uHpeVylZTKxvS8xGIRx8_SdZKuGyyO_uA7PNYYXaZoKr9loNyf0Ho6S32dvT68JsC9vZqIkzb8E9zaZ0pH8HUNz_7jyJcPOx2-kL3d7gQZpvX2LiimfPanWMD0AXRG71Fo-U8G1qxzTOW1CND57e9sUZytcb01aeE92Ph5DO1964gpIjR50HtIkRXZC7yFKZumjkmLKH20O6-MfDDA0t6nLpRiOdo0jvr1pA501wvs-f4on0WV-omf6HZ2CwwYo8",
+    "badge": "Built for Better",
+    "tags": ["reusable", "washable", "durable"],
+    "impact": {
+      "emissions": "Avoids Single-Use Plastic Bags",
+      "packaging": "Minimal Paper Tags",
+      "sourcing": "Made from Recycled Fabric"
+    }
+  },
+  {
+    "id": 25,
+    "name": "Plastic Water Bottle (Single-Use)",
+    "brand": "AquaMax",
+    "price": 20,
+    "originalPrice": 25,
+    "points": 0,
+    "co2SavedKg": 0.0,
+    "image": "https://images.unsplash.com/photo-1607082349565-5386e1d5f65f?auto=format&fit=crop&w=800&q=80",
+    "badge": "",
+    "tags": ["non-recyclable", "single-use"],
+    "impact": {
+      "emissions": "High CO₂ Supply Chain",
+      "packaging": "Plastic Packaging",
+      "sourcing": "Petroleum-Based Material"
+    }
+  },
+  {
+    "id": 26,
+    "name": "Conventional Cotton T-Shirt",
+    "brand": "FastWear",
+    "price": 299,
+    "originalPrice": 350,
+    "points": 0,
+    "co2SavedKg": 0.1,
+    "image": "https://images.unsplash.com/photo-1585386959984-a415522a7f57?auto=format&fit=crop&w=800&q=80",
+    "badge": "",
+    "tags": ["chemical-dyed", "mass-produced"],
+    "impact": {
+      "emissions": "Standard Manufacturing Process",
+      "packaging": "Plastic Wrap",
+      "sourcing": "Conventional Cotton"
+    }
+  },
+  {
+    "id": 27,
+    "name": "Disposable Plastic Cutlery Pack",
+    "brand": "QuickServe",
+    "price": 50,
+    "originalPrice": 60,
+    "points": 0,
+    "co2SavedKg": 0.0,
+    "image": "https://images.unsplash.com/photo-1580541836517-8d8c8ddf5ebf?auto=format&fit=crop&w=800&q=80",
+    "badge": "",
+    "tags": ["non-biodegradable", "disposable"],
+    "impact": {
+      "emissions": "CO₂-Heavy Plastic Production",
+      "packaging": "Non-Recyclable Plastic Bag",
+      "sourcing": "Fossil Fuel-Based Plastics"
+    }
+  },
+  {
+    "id": 28,
+    "name": "Conventional Dishwashing Liquid",
+    "brand": "ShinyClean",
+    "price": 110,
+    "originalPrice": 140,
+    "points": 0,
+    "co2SavedKg": 0.0,
+    "image": "https://images.unsplash.com/photo-1648231521579-e5d431f71a95?auto=format&fit=crop&w=800&q=80",
+    "badge": "",
+    "tags": ["chemical", "synthetic"],
+    "impact": {
+      "emissions": "Chemical-Intensive Formula",
+      "packaging": "Plastic Bottle",
+      "sourcing": "Synthetic Surfactants"
+    }
+  },
+  {
+    "id": 29,
+    "name": "Regular Paper Towels",
+    "brand": "WipeIt",
+    "price": 90,
+    "originalPrice": 120,
+    "points": 0,
+    "co2SavedKg": 0.0,
+    "image": "https://images.unsplash.com/photo-1620131261426-7bba401da0b8?auto=format&fit=crop&w=800&q=80",
+    "badge": "",
+    "tags": ["bleached", "non-recycled"],
+    "impact": {
+      "emissions": "Deforestation & Pulp Bleaching",
+      "packaging": "Plastic Wrap",
+      "sourcing": "Virgin Wood Fibers"
+    }
+  }
+]
+
+
+
+
+

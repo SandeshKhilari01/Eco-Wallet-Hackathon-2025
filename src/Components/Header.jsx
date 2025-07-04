@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import { Search, ShoppingCart, User, Menu, Heart, MapPin } from 'lucide-react';
 import './Header.css';
-<<<<<<< HEAD
+
 import { Link } from 'react-router-dom';
-=======
+
 import UserDetail from './UserDetail';
->>>>>>> cdcf8165bd37e83a90a849135bd05510c2d8bc5a
+
 
 export default function Header({ cartCount, searchQuery, setSearchQuery }) {
   const [showUserDetail, setShowUserDetail] = useState(false);

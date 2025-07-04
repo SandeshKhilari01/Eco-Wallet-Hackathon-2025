@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "./Card";
-import products from "./data/Products21-40.json"; // Your JSON file
+import products from "./data/Products60.json"; 
 import WalmartHomepage from "./Components/WalmartHomepage";
 import "./App.css";
 

@@ -1,8 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Search, ShoppingCart, User, Menu, Heart, MapPin } from 'lucide-react';
 import './Header.css';
+import UserDetail from './UserDetail';
 
 export default function Header({ cartCount, searchQuery, setSearchQuery }) {
+  const [showUserDetail, setShowUserDetail] = useState(false);
+
   return (
     <header className="header">
       <div className="max-w-7xl mx-auto">
@@ -47,7 +50,9 @@ export default function Header({ cartCount, searchQuery, setSearchQuery }) {
           {/* Right */}
           <div className="header-icons">
             <Heart className="w-6 h-6 header-icon" />
-            <User className="w-6 h-6 header-icon" />
+            <span onClick={() => setShowUserDetail(true)} style={{cursor: 'pointer'}}>
+              <User className="w-6 h-6 header-icon" />
+            </span>
             <div className="relative cursor-pointer">
               <ShoppingCart className="w-6 h-6 header-icon" />
               {cartCount > 0 && (
@@ -59,6 +64,14 @@ export default function Header({ cartCount, searchQuery, setSearchQuery }) {
           </div>
         </div>
       </div>
+      {showUserDetail && (
+        <div className="user-detail-modal">
+          <div className="user-detail-modal-content">
+            <button className="user-detail-close" onClick={() => setShowUserDetail(false)}>&times;</button>
+            <UserDetail />
+          </div>
+        </div>
+      )}
     </header>
   );
 }

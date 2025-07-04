@@ -1,0 +1,2281 @@
+[
+  {
+    "id": 1,
+    "name": "EcoBasics Organic Cotton Tee",
+    "img_url": "https://m.media-amazon.com/images/I/61zbGRlAuYL._AC_SY550_.jpg",
+    "price": 200,
+    "originalPrice": 250,
+    "carbonData": {
+      "weight_kg": 0.2,
+      "category": "apparel",
+      "origin_country": "IN",
+      "destination_country": "US",
+      "material_composition": [
+        { "material": "organic_cotton", "percentage": 100, "co2e_per_kg": 2.5 }
+      ],
+      "packaging": {
+        "primary": { "type": "biodegradable_bag", "weight_kg": 0.01 },
+        "secondary": { "type": "recycled_cardboard", "weight_kg": 0.05 },
+        "tertiary": { "type": "none", "weight_kg": 0 }
+      },
+      "supply_chain": {
+        "legs": [
+          { "distance_km": 8000, "mode": "cargo_ship" },
+          { "distance_km": 200, "mode": "electric_vehicle" }
+        ]
+      },
+      "location_density": "urban"
+    },
+    "highest_contributor": "material"
+  },
+  {
+    "id": 2,
+    "name": "FastFashionCo Conventional Cotton Tee",
+    "img_url": "https://www.selectedhomme.in/cdn/shop/files/118607602_g6.jpg?v=1746509285&width=700",
+    "price": 150,
+    "originalPrice": 200,
+    "carbonData": {
+      "weight_kg": 0.2,
+      "category": "apparel",
+      "origin_country": "CN",
+      "destination_country": "GB",
+      "material_composition": [
+        {
+          "material": "conventional_cotton",
+          "percentage": 100,
+          "co2e_per_kg": 8.0
+        }
+      ],
+      "packaging": {
+        "primary": { "type": "virgin_plastic", "weight_kg": 0.015 },
+        "secondary": { "type": "virgin_cardboard", "weight_kg": 0.05 },
+        "tertiary": { "type": "none", "weight_kg": 0 }
+      },
+      "supply_chain": {
+        "legs": [
+          { "distance_km": 5000, "mode": "cargo_plane" },
+          { "distance_km": 100, "mode": "diesel_truck" }
+        ]
+      },
+      "location_density": "rural"
+    },
+    "highest_contributor": "transport"
+  },
+  {
+    "id": 3,
+    "name": "GreenBlend Organic/Recycled Tee",
+    "img_url": "https://www.passenger-clothing.com/cdn/shop/files/DOIsajXJ7tKJtc2cwsgfAPeh44eWXrzK9QrVs12dePg.jpg?v=1721395874&width=493",
+    "price": 280,
+    "originalPrice": 320,
+    "carbonData": {
+      "weight_kg": 0.2,
+      "category": "apparel",
+      "origin_country": "VN",
+      "destination_country": "DE",
+      "material_composition": [
+        { "material": "organic_cotton", "percentage": 50, "co2e_per_kg": 2.5 },
+        {
+          "material": "recycled_polyester",
+          "percentage": 50,
+          "co2e_per_kg": 3.2
+        }
+      ],
+      "packaging": {
+        "primary": { "type": "recycled_plastic", "weight_kg": 0.02 },
+        "secondary": { "type": "recycled_cardboard", "weight_kg": 0.05 },
+        "tertiary": { "type": "none", "weight_kg": 0 }
+      },
+      "supply_chain": {
+        "legs": [
+          { "distance_km": 9000, "mode": "cargo_ship" },
+          { "distance_km": 150, "mode": "cargo_train" }
+        ]
+      },
+      "location_density": "urban"
+    },
+    "highest_contributor": "material"
+  },
+  {
+    "id": 4,
+    "name": "QuickFly Lyocell Tank",
+    "img_url": "https://yourdesignstore.s3.amazonaws.com/uploads/yds/productImages/full/16914064727340Tank-Top_MAIN_IMAGE.png",
+    "price": 220,
+    "originalPrice": 250,
+    "carbonData": {
+      "weight_kg": 0.05,
+      "category": "apparel",
+      "origin_country": "SG",
+      "destination_country": "AU",
+      "material_composition": [
+        { "material": "tencel_lyocell", "percentage": 100, "co2e_per_kg": 1.5 }
+      ],
+      "packaging": {
+        "primary": { "type": "biodegradable_bag", "weight_kg": 0.005 },
+        "secondary": { "type": "compostable_pulp", "weight_kg": 0.01 },
+        "tertiary": { "type": "none", "weight_kg": 0 }
+      },
+      "supply_chain": {
+        "legs": [{ "distance_km": 10000, "mode": "cargo_plane" }]
+      },
+      "location_density": "urban"
+    },
+    "highest_contributor": "transport"
+  },
+  {
+    "id": 5,
+    "name": "HempBlend Cold‑Weather Jacket",
+    "img_url": "https://beyondclothing.com/cdn/shop/files/A7D_ColdJacket_Durable_OCP_Front_WEB.jpg?v=1712706730&width=823",
+    "price": 850,
+    "originalPrice": 1100,
+    "carbonData": {
+      "weight_kg": 1.0,
+      "category": "apparel",
+      "origin_country": "CA",
+      "destination_country": "US",
+      "material_composition": [
+        { "material": "hemp", "percentage": 50, "co2e_per_kg": 0 },
+        { "material": "organic_wool", "percentage": 50, "co2e_per_kg": 5.0 }
+      ],
+      "packaging": {
+        "primary": { "type": "recycled_cardboard", "weight_kg": 0.1 },
+        "secondary": { "type": "reusable_container", "weight_kg": 0.0 },
+        "tertiary": { "type": "none", "weight_kg": 0 }
+      },
+      "supply_chain": {
+        "legs": [
+          { "distance_km": 1500, "mode": "cargo_train" },
+          { "distance_km": 50, "mode": "electric_vehicle" }
+        ]
+      },
+      "location_density": "rural"
+    },
+    "highest_contributor": "material"
+  },
+  {
+    "id": 6,
+    "name": "TencelFlow Summer Dress",
+    "img_url": "https://i.pinimg.com/736x/ec/05/ba/ec05ba19ef8d85b3a880b5090d6d0082.jpg",
+    "price": 2000,
+    "originalPrice": 2200,
+    "carbonData": {
+      "weight_kg": 0.3,
+      "category": "apparel",
+      "origin_country": "SG",
+      "destination_country": "FR",
+      "material_composition": [
+        { "material": "tencel_lyocell", "percentage": 100, "co2e_per_kg": 1.5 }
+      ],
+      "packaging": {
+        "primary": { "type": "biodegradable_bag", "weight_kg": 0.015 },
+        "secondary": { "type": "recycled_cardboard", "weight_kg": 0.08 },
+        "tertiary": { "type": "none", "weight_kg": 0 }
+      },
+      "supply_chain": {
+        "legs": [
+          { "distance_km": 7000, "mode": "cargo_ship" },
+          { "distance_km": 200, "mode": "diesel_truck" }
+        ]
+      },
+      "location_density": "urban"
+    },
+    "highest_contributor": "material"
+  },
+  {
+    "id": 7,
+    "name": "LinenEase Summer Shirt",
+    "img_url": "https://thesparkshop.in/wp-content/uploads/2023/04/Custom-Fashion-Men-prime-S-Hawaiian-Shirt-Casual-Printed-Beach-Summer-Button-Down-Shirts.webp",
+    "price": 350,
+    "originalPrice": 450,
+    "carbonData": {
+      "weight_kg": 0.25,
+      "category": "apparel",
+      "origin_country": "BR",
+      "destination_country": "US",
+      "material_composition": [
+        { "material": "organic_cotton", "percentage": 30, "co2e_per_kg": 2.5 },
+        { "material": "bamboo_fiber", "percentage": 70, "co2e_per_kg": 1.8 }
+      ],
+      "packaging": {
+        "primary": { "type": "seaweed_packaging", "weight_kg": 0.01 },
+        "secondary": { "type": "recycled_cardboard", "weight_kg": 0.04 },
+        "tertiary": { "type": "none", "weight_kg": 0 }
+      },
+      "supply_chain": {
+        "legs": [
+          { "distance_km": 8000, "mode": "cargo_ship" },
+          { "distance_km": 250, "mode": "cng_truck" }
+        ]
+      },
+      "location_density": "rural"
+    },
+    "highest_contributor": "material"
+  },
+  {
+    "id": 8,
+    "name": "RePolyWear Recycled Polyester Sneakers",
+    "img_url": "https://i.pinimg.com/736x/59/e6/a3/59e6a3919874960ff5bc65dcdc9cae60.jpg",
+    "price": 700,
+    "originalPrice": 850,
+    "carbonData": {
+      "weight_kg": 0.9,
+      "category": "apparel",
+      "origin_country": "MX",
+      "destination_country": "CA",
+      "material_composition": [
+        { "material": "recycled_rubber", "percentage": 100, "co2e_per_kg": 0.5 }
+      ],
+      "packaging": {
+        "primary": { "type": "recycled_plastic", "weight_kg": 0.05 },
+        "secondary": { "type": "recycled_cardboard", "weight_kg": 0.2 },
+        "tertiary": { "type": "none", "weight_kg": 0 }
+      },
+      "supply_chain": {
+        "legs": [
+          { "distance_km": 3000, "mode": "cargo_ship" },
+          { "distance_km": 100, "mode": "cargo_train" }
+        ]
+      },
+      "location_density": "urban"
+    },
+    "highest_contributor": "material"
+  },
+  {
+    "id": 9,
+    "name": "ForestFSC Wood‑Button Cardigan",
+    "img_url": "https://i.pinimg.com/736x/5f/91/6f/5f916ff670d95c2f8a065d319285826d.jpg",
+    "price": 550,
+    "originalPrice": 650,
+    "carbonData": {
+      "weight_kg": 0.6,
+      "category": "apparel",
+      "origin_country": "RU",
+      "destination_country": "FR",
+      "material_composition": [
+        { "material": "fsc_wood", "percentage": 10, "co2e_per_kg": 0.5 },
+        {
+          "material": "conventional_cotton",
+          "percentage": 90,
+          "co2e_per_kg": 8.0
+        }
+      ],
+      "packaging": {
+        "primary": { "type": "virgin_cardboard", "weight_kg": 0.1 },
+        "secondary": { "type": "virgin_plastic", "weight_kg": 0.03 },
+        "tertiary": { "type": "none", "weight_kg": 0 }
+      },
+      "supply_chain": {
+        "legs": [
+          { "distance_km": 4000, "mode": "cargo_ship" },
+          { "distance_km": 600, "mode": "cargo_plane" }
+        ]
+      },
+      "location_density": "urban"
+    },
+    "highest_contributor": "material"
+  },
+  {
+    "id": 10,
+    "name": "Mix & Match Tee Pack",
+    "img_url": "https://i.pinimg.com/736x/29/12/d6/2912d6f023bc349e92582120240848f9.jpg",
+    "price": 500,
+    "originalPrice": 600,
+    "carbonData": {
+      "weight_kg": 0.6,
+      "category": "apparel",
+      "origin_country": "GB",
+      "destination_country": "NG",
+      "material_composition": [
+        { "material": "organic_cotton", "percentage": 50, "co2e_per_kg": 2.5 },
+        {
+          "material": "conventional_cotton",
+          "percentage": 50,
+          "co2e_per_kg": 8.0
+        }
+      ],
+      "packaging": {
+        "primary": { "type": "recycled_plastic", "weight_kg": 0.02 },
+        "secondary": { "type": "recycled_cardboard", "weight_kg": 0.07 },
+        "tertiary": { "type": "none", "weight_kg": 0 }
+      },
+      "supply_chain": {
+        "legs": [
+          { "distance_km": 6000, "mode": "cargo_ship" },
+          { "distance_km": 400, "mode": "cargo_plane" }
+        ]
+      },
+      "location_density": "rural"
+    },
+    "highest_contributor": "material"
+  },
+  {
+    "id": 11,
+    "name": "OrchardSelect Fuji Apples (1kg)",
+    "img_url": "https://i.pinimg.com/736x/f3/e2/d1/f3e2d1ebe387e842a6e7504929e2fd18.jpg",
+    "price": 200,
+    "originalPrice": 250,
+    "carbonData": {
+      "weight_kg": 1.0,
+      "category": "produce",
+      "origin_country": "US",
+      "destination_country": "CA",
+      "material_composition": [
+        { "material": "fresh_fruit", "percentage": 100, "co2e_per_kg": 0.2 }
+      ],
+      "packaging": {
+        "primary": { "type": "compostable_pulp", "weight_kg": 0.01 },
+        "secondary": { "type": "recycled_cardboard", "weight_kg": 0.05 },
+        "tertiary": { "type": "none", "weight_kg": 0 }
+      },
+      "supply_chain": {
+        "legs": [{ "distance_km": 800, "mode": "electric_vehicle" }]
+      },
+      "location_density": "urban"
+    },
+    "highest_contributor": "material"
+  },
+  {
+    "id": 12,
+    "name": "GreenFarm Gala Apples (1kg)",
+    "img_url": "https://i.pinimg.com/736x/ff/7d/ed/ff7dedb9c84a54dcb7e24d6ee6808466.jpg",
+    "price": 250,
+    "originalPrice": 270,
+    "carbonData": {
+      "weight_kg": 1.0,
+      "category": "produce",
+      "origin_country": "BR",
+      "destination_country": "US",
+      "material_composition": [
+        { "material": "fresh_fruit", "percentage": 100, "co2e_per_kg": 0.23 }
+      ],
+      "packaging": {
+        "primary": { "type": "biodegradable_bag", "weight_kg": 0.015 },
+        "secondary": { "type": "none", "weight_kg": 0 }
+      },
+      "supply_chain": {
+        "legs": [
+          { "distance_km": 5000, "mode": "cargo_ship" },
+          { "distance_km": 100, "mode": "electric_vehicle" }
+        ]
+      },
+      "location_density": "rural"
+    },
+    "highest_contributor": "transport"
+  },
+  {
+    "id": 13,
+    "name": "EcoHarvest Granny Smith Apples (1kg)",
+    "img_url": "https://i.pinimg.com/736x/e7/4e/78/e74e782a805bf6f2cc8f178a6063f9d7.jpg",
+    "price": 200,
+    "originalPrice": 250,
+    "carbonData": {
+      "weight_kg": 1.0,
+      "category": "produce",
+      "origin_country": "ZA",
+      "destination_country": "GB",
+      "material_composition": [
+        { "material": "fresh_fruit", "percentage": 100, "co2e_per_kg": 0.18 }
+      ],
+      "packaging": {
+        "primary": { "type": "seaweed_packaging", "weight_kg": 0.02 },
+        "secondary": { "type": "recycled_cardboard", "weight_kg": 0.04 },
+        "tertiary": { "type": "none", "weight_kg": 0 }
+      },
+      "supply_chain": {
+        "legs": [{ "distance_km": 10000, "mode": "cargo_ship" }]
+      },
+      "location_density": "urban"
+    },
+    "highest_contributor": "transport"
+  },
+  {
+    "id": 14,
+    "name": "TropiFresh Cavendish Bananas (1kg)",
+    "img_url": "https://i.pinimg.com/736x/1c/16/62/1c1662f546cc85a1d77732c840ff9113.jpg",
+    "price": 100,
+    "originalPrice": 120,
+    "carbonData": {
+      "weight_kg": 1.0,
+      "category": "produce",
+      "origin_country": "US",
+      "destination_country": "CA",
+      "material_composition": [
+        { "material": "fresh_fruit", "percentage": 100, "co2e_per_kg": 0.2 }
+      ],
+      "packaging": {
+        "primary": { "type": "compostable_pulp", "weight_kg": 0.01 },
+        "secondary": { "type": "recycled_cardboard", "weight_kg": 0.04 },
+        "tertiary": { "type": "none", "weight_kg": 0 }
+      },
+      "supply_chain": {
+        "legs": [{ "distance_km": 500, "mode": "electric_vehicle" }]
+      },
+      "location_density": "urban"
+    },
+    "highest_contributor": "material"
+  },
+  {
+    "id": 15,
+    "name": "EcoBanana Organic Bananas (1kg)",
+    "img_url": "https://i.pinimg.com/736x/e3/a8/b6/e3a8b6a01cdb33ed4dc859734ac80c84.jpg",
+    "price": 120,
+    "originalPrice": 150,
+    "carbonData": {
+      "weight_kg": 1.0,
+      "category": "produce",
+      "origin_country": "BR",
+      "destination_country": "US",
+      "material_composition": [
+        { "material": "fresh_fruit", "percentage": 100, "co2e_per_kg": 0.23 }
+      ],
+      "packaging": {
+        "primary": { "type": "biodegradable_bag", "weight_kg": 0.02 },
+        "secondary": { "type": "recycled_cardboard", "weight_kg": 0.0 },
+        "tertiary": { "type": "none", "weight_kg": 0 }
+      },
+      "supply_chain": {
+        "legs": [
+          { "distance_km": 10000, "mode": "cargo_ship" },
+          { "distance_km": 50, "mode": "electric_vehicle" }
+        ]
+      },
+      "location_density": "rural"
+    },
+    "highest_contributor": "material"
+  },
+  {
+    "id": 16,
+    "name": "GreenGold Plantain Bananas (1kg)",
+    "img_url": "https://i.pinimg.com/736x/d0/c6/a6/d0c6a601244ab76d44fa8e394950c7bb.jpg",
+    "price": 150,
+    "originalPrice": 180,
+    "carbonData": {
+      "weight_kg": 1.0,
+      "category": "produce",
+      "origin_country": "MX",
+      "destination_country": "US",
+      "material_composition": [
+        { "material": "fresh_fruit", "percentage": 100, "co2e_per_kg": 0.25 }
+      ],
+      "packaging": {
+        "primary": { "type": "recycled_plastic", "weight_kg": 0.05 },
+        "secondary": { "type": "recycled_cardboard", "weight_kg": 0.1 },
+        "tertiary": { "type": "none", "weight_kg": 0 }
+      },
+      "supply_chain": {
+        "legs": [
+          { "distance_km": 3000, "mode": "cng_truck" },
+          { "distance_km": 100, "mode": "electric_vehicle" }
+        ]
+      },
+      "location_density": "urban"
+    },
+    "highest_contributor": "transport"
+  },
+  {
+    "id": 17,
+    "name": "GreenHarvest Mixed Greens Salad Kit (0.30 kg)",
+    "img_url": "https://i.pinimg.com/736x/33/c0/e6/33c0e6cd8b77e56d8efb51d3a0386947.jpg",
+    "price": 100,
+    "originalPrice": 120,
+    "carbonData": {
+      "weight_kg": 0.3,
+      "category": "produce",
+      "origin_country": "CA",
+      "destination_country": "US",
+      "material_composition": [
+        { "material": "fresh_vegetable", "percentage": 100, "co2e_per_kg": 0.3 }
+      ],
+      "packaging": {
+        "primary": { "type": "biodegradable_bag", "weight_kg": 0.015 },
+        "secondary": { "type": "recycled_cardboard", "weight_kg": 0.04 },
+        "tertiary": { "type": "none", "weight_kg": 0 }
+      },
+      "supply_chain": {
+        "legs": [
+          { "distance_km": 600, "mode": "electric_vehicle" },
+          { "distance_km": 1200, "mode": "cargo_ship" }
+        ]
+      },
+      "location_density": "urban"
+    },
+    "highest_contributor": "transport"
+  },
+  {
+    "id": 18,
+    "name": "FreshField Caesar Salad Kit (0.25 kg)",
+    "img_url": "https://i.pinimg.com/736x/84/3b/b7/843bb728570c377203bc66ac7b6a2416.jpg",
+    "price": 100,
+    "originalPrice": 120,
+    "carbonData": {
+      "weight_kg": 0.25,
+      "category": "produce",
+      "origin_country": "NL",
+      "destination_country": "GB",
+      "material_composition": [
+        { "material": "fresh_vegetable", "percentage": 80, "co2e_per_kg": 0.3 },
+        { "material": "fresh_vegetable", "percentage": 20, "co2e_per_kg": 0.35 }
+      ],
+      "packaging": {
+        "primary": { "type": "seaweed_packaging", "weight_kg": 0.01 },
+        "secondary": { "type": "compostable_pulp", "weight_kg": 0.02 },
+        "tertiary": { "type": "none", "weight_kg": 0 }
+      },
+      "supply_chain": {
+        "legs": [
+          { "distance_km": 3000, "mode": "cargo_ship" },
+          { "distance_km": 200, "mode": "diesel_truck" }
+        ]
+      },
+      "location_density": "rural"
+    },
+    "highest_contributor": "transport"
+  },
+  {
+    "id": 19,
+    "name": "SunGold Roma Tomatoes (1kg)",
+    "img_url": "https://i.pinimg.com/736x/3c/b5/80/3cb580c3bd8f0c36fb5c0b4b976dd810.jpg",
+    "price": 120,
+    "originalPrice": 150,
+    "carbonData": {
+      "weight_kg": 1.0,
+      "category": "produce",
+      "origin_country": "ES",
+      "destination_country": "DE",
+      "material_composition": [
+        {
+          "material": "fresh_vegetable",
+          "percentage": 100,
+          "co2e_per_kg": 0.35
+        }
+      ],
+      "packaging": {
+        "primary": { "type": "compostable_pulp", "weight_kg": 0.01 },
+        "secondary": { "type": "recycled_cardboard", "weight_kg": 0.04 },
+        "tertiary": { "type": "none", "weight_kg": 0 }
+      },
+      "supply_chain": {
+        "legs": [
+          { "distance_km": 1500, "mode": "cargo_ship" },
+          { "distance_km": 200, "mode": "electric_vehicle" }
+        ]
+      },
+      "location_density": "rural"
+    },
+    "highest_contributor": "transport"
+  },
+  {
+    "id": 20,
+    "name": "RedRuby Cherry Tomatoes (0.50kg)",
+    "img_url": "https://i.pinimg.com/736x/07/98/58/0798584d8c9596e3d0422282cd29c820.jpg",
+    "price": 120,
+    "originalPrice": 150,
+    "carbonData": {
+      "weight_kg": 0.5,
+      "category": "produce",
+      "origin_country": "US",
+      "destination_country": "CA",
+      "material_composition": [
+        {
+          "material": "fresh_vegetable",
+          "percentage": 100,
+          "co2e_per_kg": 0.35
+        }
+      ],
+      "packaging": {
+        "primary": { "type": "biodegradable_bag", "weight_kg": 0.015 },
+        "secondary": { "type": "none", "weight_kg": 0 }
+      },
+      "supply_chain": {
+        "legs": [
+          { "distance_km": 800, "mode": "electric_vehicle" },
+          { "distance_km": 5000, "mode": "cargo_ship" }
+        ]
+      },
+      "location_density": "urban"
+    },
+    "highest_contributor": "transport"
+  },
+  {
+    "id": 21,
+    "name": "TechNova 14 Laptop",
+    "img_url": "https://i5.walmartimages.com/seo/ASUS-CX15-Chromebook-Laptop-15-6-FHD-NanoEdge-Display-Intel-Celeron-N4500-Processor-128GB-Storage-4GB-RAM-Pure-Gray_53d8a6ca-720b-4948-976e-4171058d9395.3474e8bc1aeb02c17dc51215bcfa691c.jpeg?odnHeight=640&odnWidth=640&odnBg=FFFFFF",
+    "price": 82000,
+    "originalPrice": 92000,
+    "carbonData": {
+      "weight_kg": 1.9,
+      "category": "electronics",
+      "origin_country": "US",
+      "destination_country": "US",
+      "material_composition": [
+        {
+          "material": "virgin_plastic",
+          "percentage": 55,
+          "co2e_per_kg": 3.2
+        },
+        {
+          "material": "conventional_cotton",
+          "percentage": 25,
+          "co2e_per_kg": 8.0
+        },
+        {
+          "material": "recycled_metal",
+          "percentage": 20,
+          "co2e_per_kg": 4.0
+        }
+      ],
+      "packaging": {
+        "primary": {
+          "type": "virgin_plastic",
+          "weight_kg": 0.15
+        },
+        "secondary": {
+          "type": "virgin_cardboard",
+          "weight_kg": 0.35
+        },
+        "tertiary": {
+          "type": "virgin_plastic",
+          "weight_kg": 0.4
+        }
+      },
+      "supply_chain": {
+        "legs": [
+          {
+            "distance_km": 800,
+            "mode": "diesel_truck"
+          },
+          {
+            "distance_km": 500,
+            "mode": "cargo_train"
+          },
+          {
+            "distance_km": 25,
+            "mode": "hybrid_vehicle"
+          }
+        ]
+      },
+      "location_density": "urban"
+    },
+    "highest_contributor": "material"
+  },
+  {
+    "id": 22,
+    "name": "CorePulse 15 Laptop",
+    "img_url": "https://i5.walmartimages.com/seo/Apple-MacBook-Air-13-3-inch-Laptop-Space-Gray-M1-Chip-Built-for-Apple-Intelligence-8GB-RAM-256GB-storage_581b24d7-f665-4ae8-86c7-3fe6029eda95.781a87b30356810385b0d098d3a75b91.jpeg?odnHeight=640&odnWidth=640&odnBg=FFFFFF",
+    "price": 78000,
+    "originalPrice": 88000,
+    "carbonData": {
+      "weight_kg": 2.0,
+      "category": "electronics",
+      "origin_country": "US",
+      "destination_country": "US",
+      "material_composition": [
+        {
+          "material": "virgin_plastic",
+          "percentage": 60,
+          "co2e_per_kg": 3.2
+        },
+        {
+          "material": "conventional_cotton",
+          "percentage": 30,
+          "co2e_per_kg": 8.0
+        },
+        {
+          "material": "recycled_metal",
+          "percentage": 10,
+          "co2e_per_kg": 4.0
+        }
+      ],
+      "packaging": {
+        "primary": {
+          "type": "virgin_plastic",
+          "weight_kg": 0.1
+        },
+        "secondary": {
+          "type": "virgin_cardboard",
+          "weight_kg": 0.3
+        },
+        "tertiary": {
+          "type": "virgin_plastic",
+          "weight_kg": 0.35
+        }
+      },
+      "supply_chain": {
+        "legs": [
+          {
+            "distance_km": 1000,
+            "mode": "diesel_truck"
+          },
+          {
+            "distance_km": 300,
+            "mode": "cargo_plane"
+          },
+          {
+            "distance_km": 20,
+            "mode": "hybrid_vehicle"
+          }
+        ]
+      },
+      "location_density": "urban"
+    },
+    "highest_contributor": "material"
+  },
+  {
+    "id": 23,
+    "name": "EcoBalance 14 Laptop",
+    "img_url": "https://i5.walmartimages.com/seo/Dell-Inspiron-14-Laptop-5440-14-0-inch-16-10-FHD-Display-13th-Gen-Intel-Core-i5-1334U-8GB-DDR5-RAM-512GB-SSD-Intel-UHD-Graphics-Windows-11-Home-Onsit_16c4082c-11eb-4e26-a07b-e5dac39d25bb.c010a3f1dc1e965d76898011eb093df9.jpeg?odnHeight=640&odnWidth=640&odnBg=FFFFFF",
+    "price": 85000,
+    "originalPrice": 95000,
+    "carbonData": {
+      "weight_kg": 1.6,
+      "category": "electronics",
+      "origin_country": "US",
+      "destination_country": "US",
+      "material_composition": [
+        {
+          "material": "recycled_metal",
+          "percentage": 60,
+          "co2e_per_kg": 4.0
+        },
+        {
+          "material": "bioplastic",
+          "percentage": 20,
+          "co2e_per_kg": 2.0
+        },
+        {
+          "material": "conventional_cotton",
+          "percentage": 20,
+          "co2e_per_kg": 8.0
+        }
+      ],
+      "packaging": {
+        "primary": {
+          "type": "recycled_cardboard",
+          "weight_kg": 0.08
+        },
+        "secondary": {
+          "type": "virgin_cardboard",
+          "weight_kg": 0.2
+        },
+        "tertiary": {
+          "type": "recycled_plastic",
+          "weight_kg": 0.25
+        }
+      },
+      "supply_chain": {
+        "legs": [
+          {
+            "distance_km": 500,
+            "mode": "electric_vehicle"
+          },
+          {
+            "distance_km": 300,
+            "mode": "cargo_train"
+          },
+          {
+            "distance_km": 15,
+            "mode": "hybrid_vehicle"
+          }
+        ]
+      },
+      "location_density": "urban"
+    },
+    "highest_contributor": "material"
+  },
+  {
+    "id": 24,
+    "name": "GreenShift 15 Laptop",
+    "img_url": "https://i5.walmartimages.com/seo/HP-Essential-255-G10-15-6-FHD-Business-Laptop-AMD-Ryzen-5-7530U-16GB-RAM-1TB-SSD-Wi-Fi-6-Webcam-HDMI-Bluetooth-Windows-11-Pro-Grey_c94628d5-195c-41e4-8232-993a8ef6f913.8422c486250523befccf116d9046fd75.jpeg?odnHeight=640&odnWidth=640&odnBg=FFFFFF",
+    "price": 87000,
+    "originalPrice": 97000,
+    "carbonData": {
+      "weight_kg": 1.7,
+      "category": "electronics",
+      "origin_country": "US",
+      "destination_country": "US",
+      "material_composition": [
+        {
+          "material": "recycled_metal",
+          "percentage": 55,
+          "co2e_per_kg": 4.0
+        },
+        {
+          "material": "bioplastic",
+          "percentage": 25,
+          "co2e_per_kg": 2.0
+        },
+        {
+          "material": "conventional_cotton",
+          "percentage": 20,
+          "co2e_per_kg": 8.0
+        }
+      ],
+      "packaging": {
+        "primary": {
+          "type": "recycled_cardboard",
+          "weight_kg": 0.07
+        },
+        "secondary": {
+          "type": "virgin_cardboard",
+          "weight_kg": 0.22
+        },
+        "tertiary": {
+          "type": "recycled_plastic",
+          "weight_kg": 0.28
+        }
+      },
+      "supply_chain": {
+        "legs": [
+          {
+            "distance_km": 600,
+            "mode": "electric_vehicle"
+          },
+          {
+            "distance_km": 400,
+            "mode": "cargo_train"
+          },
+          {
+            "distance_km": 20,
+            "mode": "diesel_truck"
+          }
+        ]
+      },
+      "location_density": "urban"
+    },
+    "highest_contributor": "material"
+  },
+  {
+    "id": 25,
+    "name": "EcoFlex 13 Laptop",
+    "img_url": "https://i5.walmartimages.com/seo/HP-Stream-14-inch-Windows-Laptop-Intel-Processor-N150-4GB-128GB-eMMC-Pink-12-mo-Microsoft-365-included_82b98986-afdd-40c3-a2d5-b0355110c65d.8403d90bb2cc57ab6d11c1b93eab4f44.jpeg?odnHeight=640&odnWidth=640&odnBg=FFFFFF",
+    "price": 83000,
+    "originalPrice": 93000,
+    "carbonData": {
+      "weight_kg": 1.5,
+      "category": "electronics",
+      "origin_country": "US",
+      "destination_country": "US",
+      "material_composition": [
+        {
+          "material": "recycled_metal",
+          "percentage": 50,
+          "co2e_per_kg": 4.0
+        },
+        {
+          "material": "bioplastic",
+          "percentage": 25,
+          "co2e_per_kg": 2.0
+        },
+        {
+          "material": "conventional_cotton",
+          "percentage": 25,
+          "co2e_per_kg": 8.0
+        }
+      ],
+      "packaging": {
+        "primary": {
+          "type": "recycled_cardboard",
+          "weight_kg": 0.09
+        },
+        "secondary": {
+          "type": "virgin_cardboard",
+          "weight_kg": 0.25
+        },
+        "tertiary": {
+          "type": "recycled_plastic",
+          "weight_kg": 0.3
+        }
+      },
+      "supply_chain": {
+        "legs": [
+          {
+            "distance_km": 450,
+            "mode": "electric_vehicle"
+          },
+          {
+            "distance_km": 350,
+            "mode": "cargo_train"
+          },
+          {
+            "distance_km": 10,
+            "mode": "hybrid_vehicle"
+          }
+        ]
+      },
+      "location_density": "urban"
+    },
+    "highest_contributor": "material"
+  },
+  {
+    "id": 26,
+    "name": "EcoStar 13 Laptop",
+    "img_url": "https://i5.walmartimages.com/seo/HP-14-inch-x360-FHD-Touch-Chromebook-Laptop-Intel-Processor-N100-4GB-RAM-64GB-eMMC-Sky-Blue_383a420a-aabf-4aec-80e2-403238eefed1.da0d8583786edcfa7ae8047341285b72.jpeg?odnHeight=640&odnWidth=640&odnBg=FFFFFF",
+    "price": 115000,
+    "originalPrice": 130000,
+    "carbonData": {
+      "weight_kg": 1.3,
+      "category": "electronics",
+      "origin_country": "US",
+      "destination_country": "US",
+      "material_composition": [
+        {
+          "material": "recycled_metal",
+          "percentage": 75,
+          "co2e_per_kg": 4.0
+        },
+        {
+          "material": "bamboo_fiber",
+          "percentage": 15,
+          "co2e_per_kg": 1.8
+        },
+        {
+          "material": "tencel_lyocell",
+          "percentage": 10,
+          "co2e_per_kg": 2.2
+        }
+      ],
+      "packaging": {
+        "primary": {
+          "type": "seaweed_packaging",
+          "weight_kg": 0.03
+        },
+        "secondary": {
+          "type": "recycled_cardboard",
+          "weight_kg": 0.1
+        },
+        "tertiary": {
+          "type": "reusable_container",
+          "weight_kg": 0.15
+        }
+      },
+      "supply_chain": {
+        "legs": [
+          {
+            "distance_km": 30,
+            "mode": "cargo_bicycle"
+          },
+          {
+            "distance_km": 20,
+            "mode": "electric_vehicle"
+          }
+        ]
+      },
+      "location_density": "urban"
+    },
+    "highest_contributor": "material"
+  },
+  {
+    "id": 27,
+    "name": "GreenWave 14 Laptop",
+    "img_url": "https://i5.walmartimages.com/seo/Lenovo-IdeaPad-Slim-3i-15-6-Laptop-Intel-Core-i3-N305-8GB-256-SSD-82XB00BMUS_0cf51be0-e420-4bc8-a1c7-3110cb00db01.4cd90c47e4e33ebf32c7c679866b73cd.jpeg?odnHeight=640&odnWidth=640&odnBg=FFFFFF",
+    "price": 85000,
+    "originalPrice": 95000,
+    "carbonData": {
+      "weight_kg": 1.6,
+      "category": "electronics",
+      "origin_country": "US",
+      "destination_country": "US",
+      "material_composition": [
+        {
+          "material": "recycled_metal",
+          "percentage": 55,
+          "co2e_per_kg": 4.0
+        },
+        {
+          "material": "bioplastic",
+          "percentage": 20,
+          "co2e_per_kg": 2.0
+        },
+        {
+          "material": "conventional_cotton",
+          "percentage": 25,
+          "co2e_per_kg": 8.0
+        }
+      ],
+      "packaging": {
+        "primary": {
+          "type": "recycled_cardboard",
+          "weight_kg": 0.08
+        },
+        "secondary": {
+          "type": "virgin_cardboard",
+          "weight_kg": 0.2
+        },
+        "tertiary": {
+          "type": "recycled_plastic",
+          "weight_kg": 0.25
+        }
+      },
+      "supply_chain": {
+        "legs": [
+          {
+            "distance_km": 500,
+            "mode": "electric_vehicle"
+          },
+          {
+            "distance_km": 300,
+            "mode": "cargo_train"
+          },
+          {
+            "distance_km": 20,
+            "mode": "diesel_truck"
+          }
+        ]
+      },
+      "location_density": "urban"
+    },
+    "highest_contributor": "material"
+  },
+  {
+    "id": 28,
+    "name": "EcoPhone Ultra",
+    "img_url": "https://i5.walmartimages.com/seo/Straight-Talk-Samsung-Galaxy-A15-64GB-5G-Black-Prepaid-Smartphone-Locked-to-Straight-Talk_b8d27fc1-439d-4079-8d22-c9431a88ae6d.c23095d0ea8df7ac186fa8513c020af8.jpeg?odnHeight=640&odnWidth=640&odnBg=FFFFFF",
+    "price": 10000,
+    "originalPrice": 11500,
+    "carbonData": {
+      "weight_kg": 0.18,
+      "category": "electronics",
+      "origin_country": "US",
+      "destination_country": "US",
+      "material_composition": [
+        {
+          "material": "recycled_aluminum",
+          "percentage": 70,
+          "co2e_per_kg": 4.0
+        },
+        {
+          "material": "bioplastic",
+          "percentage": 20,
+          "co2e_per_kg": 2.0
+        },
+        {
+          "material": "recycled_glass",
+          "percentage": 10,
+          "co2e_per_kg": 1.5
+        }
+      ],
+      "packaging": {
+        "primary": {
+          "type": "seaweed_packaging",
+          "weight_kg": 0.02
+        },
+        "secondary": {
+          "type": "recycled_cardboard",
+          "weight_kg": 0.08
+        },
+        "tertiary": {
+          "type": "reusable_container",
+          "weight_kg": 0.1
+        }
+      },
+      "supply_chain": {
+        "legs": [
+          {
+            "distance_km": 40,
+            "mode": "cargo_bicycle"
+          },
+          {
+            "distance_km": 30,
+            "mode": "electric_vehicle"
+          }
+        ]
+      },
+      "location_density": "urban"
+    },
+    "highest_contributor": "material"
+  },
+  {
+    "id": 29,
+    "name": "GreenTech Pro",
+    "img_url": "https://i5.walmartimages.com/seo/Straight-Talk-Motorola-Moto-g-2025-5G-64GB-Blue-Prepaid-Smartphone-Locked-to-Straight-Talk_8c923957-407f-4458-921b-68e810e8fd68.63ab54dd719e848fd0247994fbe7d039.jpeg?odnHeight=640&odnWidth=640&odnBg=FFFFFF",
+    "price": 8800,
+    "originalPrice": 9800,
+    "carbonData": {
+      "weight_kg": 0.2,
+      "category": "electronics",
+      "origin_country": "US",
+      "destination_country": "US",
+      "material_composition": [
+        {
+          "material": "recycled_aluminum",
+          "percentage": 50,
+          "co2e_per_kg": 4.0
+        },
+        {
+          "material": "bioplastic",
+          "percentage": 20,
+          "co2e_per_kg": 2.0
+        },
+        {
+          "material": "virgin_plastic",
+          "percentage": 30,
+          "co2e_per_kg": 3.2
+        }
+      ],
+      "packaging": {
+        "primary": {
+          "type": "recycled_cardboard",
+          "weight_kg": 0.05
+        },
+        "secondary": {
+          "type": "virgin_cardboard",
+          "weight_kg": 0.15
+        },
+        "tertiary": {
+          "type": "recycled_plastic",
+          "weight_kg": 0.2
+        }
+      },
+      "supply_chain": {
+        "legs": [
+          {
+            "distance_km": 600,
+            "mode": "electric_vehicle"
+          },
+          {
+            "distance_km": 400,
+            "mode": "cargo_train"
+          },
+          {
+            "distance_km": 20,
+            "mode": "diesel_truck"
+          }
+        ]
+      },
+      "location_density": "urban"
+    },
+    "highest_contributor": "material"
+  },
+  {
+    "id": 30,
+    "name": "SmartEco 5G",
+    "img_url": "https://i5.walmartimages.com/seo/Cricket-Wireless-Moto-G-Play-2024-64GB-4GB-RAM-8MP-FF-Camera-Sapphire-Blue-Prepaid-Smartphone_a52b6d69-8602-4ff0-b19c-abfc5841e9f6.cc5851ed7d7bf6408ae88fc1051cac9c.png?odnHeight=640&odnWidth=640&odnBg=FFFFFF",
+    "price": 8200,
+    "originalPrice": 9200,
+    "carbonData": {
+      "weight_kg": 0.19,
+      "category": "electronics",
+      "origin_country": "US",
+      "destination_country": "US",
+      "material_composition": [
+        {
+          "material": "recycled_aluminum",
+          "percentage": 55,
+          "co2e_per_kg": 4.0
+        },
+        {
+          "material": "bioplastic",
+          "percentage": 25,
+          "co2e_per_kg": 2.0
+        },
+        {
+          "material": "virgin_plastic",
+          "percentage": 20,
+          "co2e_per_kg": 3.2
+        }
+      ],
+      "packaging": {
+        "primary": {
+          "type": "recycled_cardboard",
+          "weight_kg": 0.06
+        },
+        "secondary": {
+          "type": "virgin_cardboard",
+          "weight_kg": 0.18
+        },
+        "tertiary": {
+          "type": "recycled_plastic",
+          "weight_kg": 0.22
+        }
+      },
+      "supply_chain": {
+        "legs": [
+          {
+            "distance_km": 500,
+            "mode": "electric_vehicle"
+          },
+          {
+            "distance_km": 350,
+            "mode": "cargo_train"
+          },
+          {
+            "distance_km": 15,
+            "mode": "hybrid_vehicle"
+          }
+        ]
+      },
+      "location_density": "urban"
+    },
+    "highest_contributor": "material"
+  },
+  {
+    "id": 31,
+    "name": "PureGlow Lipstick",
+    "img_url": "https://i5.walmartimages.com/seo/L-Oreal-Paris-Colour-Riche-Original-Satin-Lipstick-for-Moisturized-Lips-165-Tickled-Pink_622eb806-0652-4ab2-9936-debfe23e33b8.74015088174888a0f91450f6562b3d62.jpeg?odnHeight=640&odnWidth=640&odnBg=FFFFFF",
+    "price": 150,
+    "originalPrice": 200,
+    "carbonData": {
+      "weight_kg": 0.01,
+      "category": "cosmetics",
+      "origin_country": "US",
+      "destination_country": "US",
+      "material_composition": [
+        {
+          "material": "organic_shea_butter",
+          "percentage": 60,
+          "co2e_per_kg": 1.5
+        },
+        {
+          "material": "recycled_aluminum",
+          "percentage": 30,
+          "co2e_per_kg": 4.0
+        },
+        {
+          "material": "organic_jojoba_oil",
+          "percentage": 10,
+          "co2e_per_kg": 1.8
+        }
+      ],
+      "packaging": {
+        "primary": {
+          "type": "compostable_paper",
+          "weight_kg": 0.005
+        },
+        "secondary": {
+          "type": "recycled_cardboard",
+          "weight_kg": 0.01
+        },
+        "tertiary": {
+          "type": "reusable_container",
+          "weight_kg": 0.015
+        }
+      },
+      "supply_chain": {
+        "legs": [
+          {
+            "distance_km": 20,
+            "mode": "cargo_bicycle"
+          },
+          {
+            "distance_km": 30,
+            "mode": "electric_vehicle"
+          }
+        ]
+      },
+      "location_density": "urban"
+    },
+    "highest_contributor": "material"
+  },
+  {
+    "id": 32,
+    "name": "EcoShade Lipstick",
+    "img_url": "https://i5.walmartimages.com/seo/wet-n-wild-Silk-Finish-Lipstick-Secret-Muse_a7f27d50-52ca-4524-bd87-3970cbf2a191.77170d8661a5a78ea9f9c05197d12f5c.jpeg?odnHeight=640&odnWidth=640&odnBg=FFFFFF",
+    "price": 280,
+    "originalPrice": 320,
+    "carbonData": {
+      "weight_kg": 0.012,
+      "category": "cosmetics",
+      "origin谢谢_country": "US",
+      "destination_country": "US",
+      "material_composition": [
+        {
+          "material": "organic_shea_butter",
+          "percentage": 50,
+          "co2e_per_kg": 1.5
+        },
+        {
+          "material": "virgin_plastic",
+          "percentage": 30,
+          "co2e_per_kg": 3.2
+        },
+        {
+          "material": "organic_castor_oil",
+          "percentage": 20,
+          "co2e_per_kg": 1.8
+        }
+      ],
+      "packaging": {
+        "primary": {
+          "type": "recycled_cardboard",
+          "weight_kg": 0.006
+        },
+        "secondary": {
+          "type": "virgin_cardboard",
+          "weight_kg": 0.012
+        },
+        "tertiary": {
+          "type": "recycled_plastic",
+          "weight_kg": 0.02
+        }
+      },
+      "supply_chain": {
+        "legs": [
+          {
+            "distance_km": 400,
+            "mode": "electric_vehicle"
+          },
+          {
+            "distance_km": 200,
+            "mode": "cargo_train"
+          },
+          {
+            "distance_km": 10,
+            "mode": "diesel_truck"
+          }
+        ]
+      },
+      "location_density": "urban"
+    },
+    "highest_contributor": "material"
+  },
+  {
+    "id": 33,
+    "name": "VividBloom Lipstick",
+    "img_url": "https://i5.walmartimages.com/seo/Hard-Candy-Insta-Pout-Plumping-Lip-Melt-On-Again_07e9bd5d-9138-47dc-86d8-bac5f2f4e894.a8e40cd05b97e92328b26f54df9e1439.jpeg?odnHeight=640&odnWidth=640&odnBg=FFFFFF",
+    "price": 260,
+    "originalPrice": 300,
+    "carbonData": {
+      "weight_kg": 0.011,
+      "category": "cosmetics",
+      "origin_country": "US",
+      "destination_country": "US",
+      "material_composition": [
+        {
+          "material": "organic_shea_butter",
+          "percentage": 45,
+          "co2e_per_kg": 1.5
+        },
+        {
+          "material": "recycled_aluminum",
+          "percentage": 35,
+          "co2e_per_kg": 4.0
+        },
+        {
+          "material": "virgin_plastic",
+          "percentage": 20,
+          "co2e_per_kg": 3.2
+        }
+      ],
+      "packaging": {
+        "primary": {
+          "type": "recycled_cardboard",
+          "weight_kg": 0.005
+        },
+        "secondary": {
+          "type": "virgin_cardboard",
+          "weight_kg": 0.015
+        },
+        "tertiary": {
+          "type": "recycled_plastic",
+          "weight_kg": 0.018
+        }
+      },
+      "supply_chain": {
+        "legs": [
+          {
+            "distance_km": 350,
+            "mode": "electric_vehicle"
+          },
+          {
+            "distance_km": 150,
+            "mode": "cargo_train"
+          },
+          {
+            "distance_km": 15,
+            "mode": "hybrid_vehicle"
+          }
+        ]
+      },
+      "location_density": "urban"
+    },
+    "highest_contributor": "material"
+  },
+  {
+    "id": 34,
+    "name": "PureLuxe Lipstick",
+    "img_url": "https://i5.walmartimages.com/seo/Revlon-Super-Lustrous-Glass-Shine-Tinted-Lip-Balm-002-Pink-Flip-0-11-oz_cea14b12-1a2d-410a-a24c-20ea7abea9ec.9fcb3016168c0df3fca34fb06c91eba8.jpeg?odnHeight=640&odnWidth=640&odnBg=FFFFFF",
+    "price": 300,
+    "originalPrice": 350,
+    "carbonData": {
+      "weight_kg": 0.013,
+      "category": "cosmetics",
+      "origin_country": "US",
+      "destination_country": "US",
+      "material_composition": [
+        {
+          "material": "organic_castor_oil",
+          "percentage": 50,
+          "co2e_per_kg": 1.8
+        },
+        {
+          "material": "virgin_plastic",
+          "percentage": 30,
+          "co2e_per_kg": 3.2
+        },
+        {
+          "material": "recycled_aluminum",
+          "percentage": 20,
+          "co2e_per_kg": 4.0
+        }
+      ],
+      "packaging": {
+        "primary": {
+          "type": "recycled_cardboard",
+          "weight_kg": 0.007
+        },
+        "secondary": {
+          "type": "virgin_cardboard",
+          "weight_kg": 0.013
+        },
+        "tertiary": {
+          "type": "recycled_plastic",
+          "weight_kg": 0.02
+        }
+      },
+      "supply_chain": {
+        "legs": [
+          {
+            "distance_km": 450,
+            "mode": "electric_vehicle"
+          },
+          {
+            "distance_km": 250,
+            "mode": "cargo_train"
+          },
+          {
+            "distance_km": 20,
+            "mode": "diesel_truck"
+          }
+        ]
+      },
+      "location_density": "urban"
+    },
+    "highest_contributor": "material"
+  },
+  {
+    "id": 35,
+    "name": "EcoFresh Laundry Sheets",
+    "img_url": "https://i5.walmartimages.com/seo/Burt-s-Bees-Gentle-Cream-Cleanser-with-Aloe-for-Sensitive-Skin-98-9-Natural-Origin-6-Ounces_ce188147-0bee-496b-bafb-f6b00aadf70c.f987ef59d13c1b1e827f3bea8c97bac9.jpeg?odnHeight=640&odnWidth=640&odnBg=FFFFFF",
+    "price": 450,
+    "originalPrice": 500,
+    "carbonData": {
+      "weight_kg": 0.15,
+      "category": "cleaning_products",
+      "origin_country": "US",
+      "destination_country": "US",
+      "material_composition": [
+        {
+          "material": "plant_based_surfactant",
+          "percentage": 65,
+          "co2e_per_kg": 1.2
+        },
+        {
+          "material": "organic_enzyme",
+          "percentage": 25,
+          "co2e_per_kg": 1.0
+        },
+        {
+          "material": "natural_sodium_bicarbonate",
+          "percentage": 10,
+          "co2e_per_kg": 0.8
+        }
+      ],
+      "packaging": {
+        "primary": {
+          "type": "compostable_paper",
+          "weight_kg": 0.008
+        },
+        "secondary": {
+          "type": "recycled_cardboard",
+          "weight_kg": 0.03
+        },
+        "tertiary": {
+          "type": "none",
+          "weight_kg": 0.0
+        }
+      },
+      "supply_chain": {
+        "legs": [
+          {
+            "distance_km": 20,
+            "mode": "cargo_bicycle"
+          },
+          {
+            "distance_km": 25,
+            "mode": "electric_vehicle"
+          }
+        ]
+      },
+      "location_density": "urban"
+    },
+    "highest_contributor": "material"
+  },
+  {
+    "id": 36,
+    "name": "CleanWave Detergent",
+    "img_url": "https://i5.walmartimages.com/seo/Burt-s-Bees-Deep-Cleansing-Pore-Scrub-with-Peach-and-Willow-Bark-4-Ounces_64cae600-8350-4f85-8499-59b15e420e27.94c05f4823f6b145980aba85bdf4104e.jpeg?odnHeight=640&odnWidth=640&odnBg=FFFFFF",
+    "price": 300,
+    "originalPrice": 350,
+    "carbonData": {
+      "weight_kg": 0.5,
+      "category": "cleaning_products",
+      "origin_country": "US",
+      "destination_country": "US",
+      "material_composition": [
+        {
+          "material": "synthetic_surfactant",
+          "percentage": 60,
+          "co2e_per_kg": 2.5
+        },
+        {
+          "material": "virgin_plastic",
+          "percentage": 30,
+          "co2e_per_kg": 3.2
+        },
+        {
+          "material": "sodium_carbonate",
+          "percentage": 10,
+          "co2e_per_kg": 1.5
+        }
+      ],
+      "packaging": {
+        "primary": {
+          "type": "virgin_plastic",
+          "weight_kg": 0.05
+        },
+        "secondary": {
+          "type": "virgin_cardboard",
+          "weight_kg": 0.1
+        },
+        "tertiary": {
+          "type": "virgin_plastic",
+          "weight_kg": 0.15
+        }
+      },
+      "supply_chain": {
+        "legs": [
+          {
+            "distance_km": 1000,
+            "mode": "diesel_truck"
+          },
+          {
+            "distance_km": 200,
+            "mode": "cargo_train"
+          },
+          {
+            "distance_km": 30,
+            "mode": "hybrid_vehicle"
+          }
+        ]
+      },
+      "location_density": "urban"
+    },
+    "highest_contributor": "material"
+  },
+  {
+    "id": 37,
+    "name": "PowerClean Detergent",
+    "img_url": "https://i5.walmartimages.com/seo/Cetaphil-Face-Wash-Hydrating-Gentle-Skin-Cleanser-for-Dry-to-Normal-Sensitive-Skin-16-oz_b6481e8f-7b0d-4d17-8b13-d30f1ca2184b.5693cce355ba9ec34f47b5e3dda92924.jpeg?odnHeight=640&odnWidth=640&odnBg=FFFFFF",
+    "price": 250,
+    "originalPrice": 300,
+    "carbonData": {
+      "weight_kg": 0.6,
+      "category": "cleaning_products",
+      "origin_country": "US",
+      "destination_country": "US",
+      "material_composition": [
+        {
+          "material": "synthetic_surfactant",
+          "percentage": 65,
+          "co2e_per_kg": 2.5
+        },
+        {
+          "material": "virgin_plastic",
+          "percentage": 25,
+          "co2e_per_kg": 3.2
+        },
+        {
+          "material": "sodium_carbonate",
+          "percentage": 10,
+          "co2e_per_kg": 1.5
+        }
+      ],
+      "packaging": {
+        "primary": {
+          "type": "virgin_plastic",
+          "weight_kg": 0.06
+        },
+        "secondary": {
+          "type": "virgin_cardboard",
+          "weight_kg": 0.12
+        },
+        "tertiary": {
+          "type": "virgin_plastic",
+          "weight_kg": 0.18
+        }
+      },
+      "supply_chain": {
+        "legs": [
+          {
+            "distance_km": 1200,
+            "mode": "diesel_truck"
+          },
+          {
+            "distance_km": 300,
+            "mode": "cargo_train"
+          },
+          {
+            "distance_km": 25,
+            "mode": "diesel_truck"
+          }
+        ]
+      },
+      "location_density": "urban"
+    },
+    "highest_contributor": "material"
+  },
+  {
+    "id": 38,
+    "name": "GreenTide Laundry Powder",
+    "img_url": "https://i5.walmartimages.com/seo/Burt-s-Bees-Nourishing-Cleansing-Oil-with-Coconut-and-Argan-Oils-6-Fluid-Ounces_150da033-89ef-406b-b6c6-350877648c40.eaf056b9ab5a2b48628cd776afd45f30.jpeg?odnHeight=640&odnWidth=640&odnBg=FFFFFF",
+    "price": 350,
+    "originalPrice": 400,
+    "carbonData": {
+      "weight_kg": 0.4,
+      "category": "cleaning_products",
+      "origin_country": "US",
+      "destination_country": "US",
+      "material_composition": [
+        {
+          "material": "plant_based_surfactant",
+          "percentage": 50,
+          "co2e_per_kg": 1.2
+        },
+        {
+          "material": "synthetic_surfactant",
+          "percentage": 30,
+          "co2e_per_kg": 2.5
+        },
+        {
+          "material": "natural_sodium_bicarbonate",
+          "percentage": 20,
+          "co2e_per_kg": 0.8
+        }
+      ],
+      "packaging": {
+        "primary": {
+          "type": "recycled_cardboard",
+          "weight_kg": 0.04
+        },
+        "secondary": {
+          "type": "virgin_cardboard",
+          "weight_kg": 0.08
+        },
+        "tertiary": {
+          "type": "recycled_plastic",
+          "weight_kg": 0.1
+        }
+      },
+      "supply_chain": {
+        "legs": [
+          {
+            "distance_km": 400,
+            "mode": "electric_vehicle"
+          },
+          {
+            "distance_km": 200,
+            "mode": "cargo_train"
+          },
+          {
+            "distance_km": 20,
+            "mode": "hybrid_vehicle"
+          }
+        ]
+      },
+      "location_density": "urban"
+    },
+    "highest_contributor": "material"
+  },
+  {
+    "id": 39,
+    "name": "EcoPure Wash Pods",
+    "img_url": "https://i5.walmartimages.com/seo/CeraVe-Foaming-Facial-Cleanser-Daily-Face-Wash-for-Normal-to-Oily-Skin-12-fl-oz_a74a3654-07aa-47c6-9377-117b3a532e6e.fc02eb8e8fc31ee17f086caa896a8d87.jpeg?odnHeight=640&odnWidth=640&odnBg=FFFFFF",
+    "price": 400,
+    "originalPrice": 450,
+    "carbonData": {
+      "weight_kg": 0.35,
+      "category": "cleaning_products",
+      "origin_country": "US",
+      "destination_country": "US",
+      "material_composition": [
+        {
+          "material": "plant_based_surfactant",
+          "percentage": 45,
+          "co2e_per_kg": 1.2
+        },
+        {
+          "material": "synthetic_surfactant",
+          "percentage": 35,
+          "co2e_per_kg": 2.5
+        },
+        {
+          "material": "organic_enzyme",
+          "percentage": 20,
+          "co2e_per_kg": 1.0
+        }
+      ],
+      "packaging": {
+        "primary": {
+          "type": "recycled_cardboard",
+          "weight_kg": 0.03
+        },
+        "secondary": {
+          "type": "virgin_cardboard",
+          "weight_kg": 0.07
+        },
+        "tertiary": {
+          "type": "recycled_plastic",
+          "weight_kg": 0.09
+        }
+      },
+      "supply_chain": {
+        "legs": [
+          {
+            "distance_km": 350,
+            "mode": "electric_vehicle"
+          },
+          {
+            "distance_km": 150,
+            "mode": "cargo_train"
+          },
+          {
+            "distance_km": 15,
+            "mode": "diesel_truck"
+          }
+        ]
+      },
+      "location_density": "urban"
+    },
+    "highest_contributor": "material"
+  },
+  {
+    "id": 40,
+    "name": "BioClean Laundry Liquid",
+    "img_url": "https://i5.walmartimages.com/seo/Cerave-Acne-Foaming-Cream-Cleanser-5-fl-oz_82510f22-863e-4cc2-a53c-44d85437bf20.792d2607218c91c16bfa9b3e17fbc84f.jpeg?odnHeight=640&odnWidth=640&odnBg=FFFFFF",
+    "price": 380,
+    "originalPrice": 430,
+    "carbonData": {
+      "weight_kg": 0.45,
+      "category": "cleaning_products",
+      "origin_country": "US",
+      "destination_country": "US",
+      "material_composition": [
+        {
+          "material": "plant_based_surfactant",
+          "percentage": 40,
+          "co2e_per_kg": 1.2
+        },
+        {
+          "material": "synthetic_surfactant",
+          "percentage": 40,
+          "co2e_per_kg": 2.5
+        },
+        {
+          "material": "natural_sodium_bicarbonate",
+          "percentage": 20,
+          "co2e_per_kg": 0.8
+        }
+      ],
+      "packaging": {
+        "primary": {
+          "type": "recycled_cardboard",
+          "weight_kg": 0.05
+        },
+        "secondary": {
+          "type": "virgin_cardboard",
+          "weight_kg": 0.09
+        },
+        "tertiary": {
+          "type": "recycled_plastic",
+          "weight_kg": 0.12
+        }
+      },
+      "supply_chain": {
+        "legs": [
+          {
+            "distance_km": 500,
+            "mode": "electric_vehicle"
+          },
+          {
+            "distance_km": 250,
+            "mode": "cargo_train"
+          },
+          {
+            "distance_km": 10,
+            "mode": "hybrid_vehicle"
+          }
+        ]
+      },
+      "location_density": "urban"
+    },
+    "highest_contributor": "material"
+  },
+  {
+    "id": 41,
+    "name": "Lysol Disinfecting Wipes, Lemon & Lime Blossom, 80 Count",
+    "category": "Cleaning Supplies",
+    "subcategory": "Disinfecting Wipes",
+    "img_url": "https://i5.walmartimages.com/seo/Lysol-Disinfecting-Wipes-Lemon-Lime-Blossom-80ct-tub-Pack-of-20_f41ff5ec-0ab6-47a4-8e7b-41c55db3c2b7.5c11aa859739d28169d424489a92f272.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF",
+    "price": 531.09,
+    "originalPrice": 683.22,
+    "carbonData": {
+      "weight_kg": 0.8,
+      "origin_country": "US",
+      "destination_country": "US",
+      "material_composition": [
+        { "material": "bioplastic", "percentage": 30, "co2e_per_kg": 1.8 },
+        { "material": "detergent_chemical_mix", "percentage": 70, "co2e_per_kg": 5.0 }
+      ],
+      "packaging": { "primary": { "type": "virgin_plastic", "weight_kg": 0.06 } },
+      "supply_chain": { "legs": [{ "distance_km": 250, "mode": "diesel_truck" }] },
+      "location_density": "urban"
+    },
+    "highest_contributor": "material"
+  },
+  {
+    "id": 42,
+    "name": "Clorox Disinfecting Wipes, Fresh Scent, 75 Count",
+    "category": "Cleaning Supplies",
+    "subcategory": "Disinfecting Wipes",
+    "img_url": "https://i5.walmartimages.com/seo/Clorox-Free-Clear-Compostable-Cleaning-Wipes-All-Purpose-Wipes-Light-Lemon-Scent-75-Count_ac145b81-8e1d-4687-900c-c75c6f32aad2.1303a5aad88f5c69f14dd57aa5cd3f91.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF",
+    "price": 448.22,
+    "originalPrice": 597.02,
+    "carbonData": {
+      "weight_kg": 0.75,
+      "origin_country": "US",
+      "destination_country": "US",
+      "material_composition": [
+        { "material": "bioplastic", "percentage": 30, "co2e_per_kg": 1.8 },
+        { "material": "detergent_chemical_mix", "percentage": 70, "co2e_per_kg": 5.0 }
+      ],
+      "packaging": { "primary": { "type": "virgin_plastic", "weight_kg": 0.06 } },
+      "supply_chain": { "legs": [{ "distance_km": 300, "mode": "diesel_truck" }] },
+      "location_density": "urban"
+    },
+    "highest_contributor": "material"
+  },
+  {
+    "id": 43,
+    "name": "Amazon Basics Disinfecting Wipes, Lemon Scent, 255 Count (3 Packs of 85)",
+    "category": "Cleaning Supplies",
+    "subcategory": "Disinfecting Wipes",
+    "img_url": "https://i5.walmartimages.com/seo/Wipes-Lemon-Fresh-Scent-Sanitizes-Cleans-Deodorizes-255-Count-3-Packs-of-85_3909237f-a055-497d-9f53-dddb0e89722d.2ce60b9b54139af9f2896d4a57279f80.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF",
+    "price": 767.32,
+    "originalPrice": 937.22,
+    "carbonData": {
+      "weight_kg": 2.0,
+      "origin_country": "US",
+      "destination_country": "US",
+      "material_composition": [
+        { "material": "bioplastic", "percentage": 30, "co2e_per_kg": 1.8 },
+        { "material": "detergent_chemical_mix", "percentage": 70, "co2e_per_kg": 5.0 }
+      ],
+      "packaging": { "primary": { "type": "virgin_plastic", "weight_kg": 0.15 } },
+      "supply_chain": { "legs": [{ "distance_km": 200, "mode": "diesel_truck" }] },
+      "location_density": "urban"
+    },
+    "highest_contributor": "material"
+  },
+  {
+    "id": 44,
+    "name": "Clorox Free & Clear Compostable Cleaning Wipes, 75 Count",
+    "category": "Cleaning Supplies",
+    "subcategory": "Disinfecting Wipes",
+    "img_url": "https://i5.walmartimages.com/seo/Clorox-Free-Clear-Cleaning-Wipe-Compostable-75-Ct-1-Pack_65df9d68-4dae-4bf4-a1d9-d80d4efb21f1.2136665a18b800b975ed006748c4aa6c.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF",
+    "price": 597.02,
+    "originalPrice": 726.22,
+    "carbonData": {
+      "weight_kg": 0.7,
+      "origin_country": "US",
+      "destination_country": "US",
+      "material_composition": [
+        { "material": "bioplastic", "percentage": 40, "co2e_per_kg": 1.8 },
+        { "material": "detergent_chemical_mix", "percentage": 60, "co2e_per_kg": 5.0 }
+      ],
+      "packaging": { "primary": { "type": "recycled_plastic", "weight_kg": 0.05 } },
+      "supply_chain": { "legs": [{ "distance_km": 250, "mode": "diesel_truck" }] },
+      "location_density": "urban"
+    },
+    "highest_contributor": "material"
+  },
+  {
+    "id": 45,
+    "name": "Lysol® Disinfecting Wipes - (1 Lemon + 1 Brand New Day Mango & Hibiscus + 1 Crisp Linen) 4/(3x35) count",
+    "category": "Cleaning Supplies",
+    "subcategory": "Disinfecting Wipes",
+    "img_url": "https://i5.walmartimages.com/seo/Lysol-Disinfecting-Wipes-1-Lemon-1-Brand-New-Day-Mango-Hibiscus-1-Crisp-Linen-4-3x35-count_4ac1f302-a61f-4b37-a4f5-3a860f6a1223.0142e3696163d58cf52a8ef55ca56f4c.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF",
+    "price": 531.09,
+    "originalPrice": 683.22,
+    "carbonData": {
+      "weight_kg": 0.8,
+      "origin_country": "US",
+      "destination_country": "US",
+      "material_composition": [
+        { "material": "bioplastic", "percentage": 30, "co2e_per_kg": 1.8 },
+        { "material": "detergent_chemical_mix", "percentage": 70, "co2e_per_kg": 5.0 }
+      ],
+      "packaging": { "primary": { "type": "virgin_plastic", "weight_kg": 0.06 } },
+      "supply_chain": { "legs": [{ "distance_km": 300, "mode": "diesel_truck" }] },
+      "location_density": "urban"
+    },
+    "highest_contributor": "material"
+  },
+  {
+    "id": 46,
+    "name": "Mrs. Meyer’s Multi-Surface Cleaner Spray, Lemon Verbena, 16 Fl Oz",
+    "category": "Cleaning Supplies",
+    "subcategory": "All-Purpose Cleaners",
+    "img_url": "https://i5.walmartimages.com/seo/Mrs-Meyer-s-Clean-Day-Multi-Surface-Everyday-Cleaner-Lemon-Verbena-Scent-16-Ounce-Bottle_a7fcf3dd-0aa0-4840-96c7-fc0ad176130b.d71ef2c6e3ed23a060454d48d233d825.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF",
+    "price": 426.72,
+    "originalPrice": 512.38,
+    "carbonData": {
+      "weight_kg": 0.5,
+      "origin_country": "US",
+      "destination_country": "US",
+      "material_composition": [
+        { "material": "detergent_chemical_mix", "percentage": 80, "co2e_per_kg": 5.0 },
+        { "material": "bioplastic", "percentage": 20, "co2e_per_kg": 1.8 }
+      ],
+      "packaging": { "primary": { "type": "recycled_plastic", "weight_kg": 0.04 } },
+      "supply_chain": { "legs": [{ "distance_km": 200, "mode": "diesel_truck" }] },
+      "location_density": "urban"
+    },
+    "highest_contributor": "material"
+  },
+  {
+    "id": 47,
+    "name": "Lysol All Purpose Cleaner Spray, Lemon Breeze, 32 Fl Oz",
+    "category": "Cleaning Supplies",
+    "subcategory": "All-Purpose Cleaners",
+    "img_url": "https://i5.walmartimages.com/seo/Lysol-All-Purpose-Cleaner-Sanitizing-and-Disinfecting-Spray-32-oz-Lemon-Breeze-Scent-Bottle_35364501-88d0-4c8e-9266-6160fa6c3a48.054d50d0497f61a65ac3e92f5beda44d.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF",
+    "price": 339.52,
+    "originalPrice": 425.22,
+    "carbonData": {
+      "weight_kg": 0.9,
+      "origin_country": "US",
+      "destination_country": "US",
+      "material_composition": [
+        { "material": "detergent_chemical_mix", "percentage": 85, "co2e_per_kg": 5.0 },
+        { "material": "bioplastic", "percentage": 15, "co2e_per_kg": 1.8 }
+      ],
+      "packaging": { "primary": { "type": "virgin_plastic", "weight_kg": 0.05 } },
+      "supply_chain": { "legs": [{ "distance_km": 250, "mode": "diesel_truck" }] },
+      "location_density": "urban"
+    },
+    "highest_contributor": "material"
+  },
+  {
+    "id": 48,
+    "name": "Mr. Clean Clean Freak Multi-Surface Spray, 16 Fl Oz",
+    "category": "Cleaning Supplies",
+    "subcategory": "All-Purpose Cleaners",
+    "img_url": "https://i5.walmartimages.com/seo/Mr-Clean-Clean-Freak-All-Purpose-Cleaner-Spray-Multi-Surface-Cleaning-Gain-16-fl-oz_fc19895d-b1e5-49a0-b43d-90128fe6cf82.30b18ac8666195a32c24c892747ed51f.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF",
+    "price": 383.22,
+    "originalPrice": 469.22,
+    "carbonData": {
+      "weight_kg": 0.5,
+      "origin_country": "US",
+      "destination_country": "US",
+      "material_composition": [
+        { "material": "detergent_chemical_mix", "percentage": 80, "co2e_per_kg": 5.0 },
+        { "material": "bioplastic", "percentage": 20, "co2e_per_kg": 1.8 }
+      ],
+      "packaging": { "primary": { "type": "recycled_plastic", "weight_kg": 0.04 } },
+      "supply_chain": { "legs": [{ "distance_km": 200, "mode": "diesel_truck" }] },
+      "location_density": "urban"
+    },
+    "highest_contributor": "material"
+  },
+  {
+    "id": 49,
+    "name": "Seventh Generation All Purpose Cleaner, Free & Clear, 23 Fl Oz",
+    "category": "Cleaning Supplies",
+    "subcategory": "All-Purpose Cleaners",
+    "img_url": "https://i5.walmartimages.com/seo/Seventh-Generation-Granite-Stone-Cleaner-Mandarin-Orchard-23-fl-oz-680-ml_2044335c-4c7a-4ab3-bf49-fc7e5eed0017_1.53f59934567c0bc901fee0e12931f9cf.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF",
+    "price": 426.72,
+    "originalPrice": 512.38,
+    "carbonData": {
+      "weight_kg": 0.7,
+      "origin_country": "US",
+      "destination_country": "US",
+      "material_composition": [
+        { "material": "detergent_chemical_mix", "percentage": 75, "co2e_per_kg": 5.0 },
+        { "material": "bioplastic", "percentage": 25, "co2e_per_kg": 1.8 }
+      ],
+      "packaging": { "primary": { "type": "recycled_plastic", "weight_kg": 0.04 } },
+      "supply_chain": { "legs": [{ "distance_km": 200, "mode": "diesel_truck" }] },
+      "location_density": "urban"
+    },
+    "highest_contributor": "material"
+  },
+  {
+    "id": 50,
+    "name": "The Pink Stuff Miracle Multi-Purpose Cleaner, 25.4 Fl Oz",
+    "category": "Cleaning Supplies",
+    "subcategory": "All-Purpose Cleaners",
+    "img_url": "https://i5.walmartimages.com/seo/The-Pink-Stuff-Miracle-Multi-Purpose-Household-Cleaner-Liquid-Spray-25-36-fl-oz_c17dd4aa-4f4b-42a4-8880-e6180157bbc8.a2568a494b29be70327eace1f04e21d5.png?odnHeight=573&odnWidth=573&odnBg=FFFFFF",
+    "price": 597.02,
+    "originalPrice": 726.22,
+    "carbonData": {
+      "weight_kg": 0.75,
+      "origin_country": "UK",
+      "destination_country": "US",
+      "material_composition": [
+        { "material": "detergent_chemical_mix", "percentage": 80, "co2e_per_kg": 5.0 },
+        { "material": "bioplastic", "percentage": 20, "co2e_per_kg": 1.8 }
+      ],
+      "packaging": { "primary": { "type": "virgin_plastic", "weight_kg": 0.05 } },
+      "supply_chain": { "legs": [
+        { "distance_km": 6000, "mode": "cargo_ship" },
+        { "distance_km": 300, "mode": "diesel_truck" }
+      ]},
+      "location_density": "urban"
+    },
+    "highest_contributor": "material"
+  },
+  {
+    "id": 51,
+    "name": "Pilot G2 Premium Retractable Gel Pens, Fine Point, 0.7mm, Black, 12 Count",
+    "category": "Office Supplies",
+    "subcategory": "Pens",
+    "img_url": "https://i5.walmartimages.com/seo/Pilot-G2-Premium-Retractable-Gel-Ink-Rolling-Ball-Pen-Fine-Point-Black-Ink-5-Count_b6bcfaae-e3a5-4a71-b1ce-86723e754c2e.060fd4525265d4cd60a205043c9770b6.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF",
+    "price": 895.22,
+    "originalPrice": 1111.22,
+    "carbonData": {
+      "weight_kg": 0.2,
+      "origin_country": "JP",
+      "destination_country": "US",
+      "material_composition": [
+        { "material": "recycled_plastic", "percentage": 70, "co2e_per_kg": 2.0 },
+        { "material": "ink_solution", "percentage": 30, "co2e_per_kg": 4.0 }
+      ],
+      "packaging": { "primary": { "type": "recycled_cardboard", "weight_kg": 0.03 } },
+      "supply_chain": { "legs": [
+        { "distance_km": 11000, "mode": "cargo_ship" },
+        { "distance_km": 400, "mode": "diesel_truck" }
+      ]},
+      "location_density": "urban"
+    },
+    "highest_contributor": "material"
+  },
+  {
+    "id": 52,
+    "name": "BIC Cristal Xtra Smooth Ballpoint Pens, Medium Point, 1.0mm, Black, 10 Count",
+    "category": "Office Supplies",
+    "subcategory": "Pens",
+    "img_url": "https://i5.walmartimages.com/seo/BIC-Cristal-Xtra-Smooth-Black-Ballpoint-Pens-Medium-Point-1-0mm-10-Count-Pack_b0929b70-8a86-42cc-a8df-b2f16d6ba090.494fef902740f804a67bf98d60a32040.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF",
+    "price": 82.81,
+    "originalPrice": 110.22,
+    "carbonData": {
+      "weight_kg": 0.1,
+      "origin_country": "MX",
+      "destination_country": "US",
+      "material_composition": [
+        { "material": "bioplastic", "percentage": 80, "co2e_per_kg": 1.8 },
+        { "material": "ink_solution", "percentage": 20, "co2e_per_kg": 4.0 }
+      ],
+      "packaging": { "primary": { "type": "virgin_plastic", "weight_kg": 0.02 } },
+      "supply_chain": { "legs": [
+        { "distance_km": 2000, "mode": "diesel_truck" },
+        { "distance_km": 50, "mode": "electric_vehicle" }
+      ]},
+      "location_density": "urban"
+    },
+    "highest_contributor": "material"
+  },
+  {
+    "id": 53,
+    "name": "Paper Mate Flair Felt Tip Pens, Medium Point, 0.7mm, Assorted Colors, 12 Count",
+    "category": "Office Supplies",
+    "subcategory": "Pens",
+    "img_url": "https://i5.walmartimages.com/seo/Paper-Mate-Flair-Felt-Tip-Pen-Set-0-7mm-12-Count_f1012f67-d4f5-431b-aefa-7332c125f4aa.cf0bee634b1054a514b867f9bfde387f.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF",
+    "price": 853.22,
+    "originalPrice": 1101.02,
+    "carbonData": {
+      "weight_kg": 0.15,
+      "origin_country": "CN",
+      "destination_country": "US",
+      "material_composition": [
+        { "material": "recycled_plastic", "percentage": 60, "co2e_per_kg": 2.0 },
+        { "material": "ink_solution", "percentage": 40, "co2e_per_kg": 4.0 }
+      ],
+      "packaging": { "primary": { "type": "recycled_cardboard", "weight_kg": 0.03 } },
+      "supply_chain": { "legs": [
+        { "distance_km": 12000, "mode": "cargo_ship" },
+        { "distance_km": 300, "mode": "diesel_truck" }
+      ]},
+      "location_density": "urban"
+    },
+    "highest_contributor": "material"
+  },
+  {
+    "id": 54,
+    "name": "Pentel EnerGel RTX Retractable Rollerball Pens, Medium Point, 0.7mm, Black, 8 Count",
+    "category": "Office Supplies",
+    "subcategory": "Pens",
+    "img_url": "https://i5.walmartimages.com/seo/Pentel-EnerGel-RTX-Retractable-Liquid-Gel-Pen-0-7mm-Metal-Tip-Medium-Line-Assorted-Ink-Pack-of-8-Pens_f4e78fc8-d845-4425-b863-0b0e1f20f50d.03090351aaa501bae56892d4426dd87b.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF",
+    "price": 1122.22,
+    "originalPrice": 1367.22,
+    "carbonData": {
+      "weight_kg": 0.18,
+      "origin_country": "JP",
+      "destination_country": "US",
+      "material_composition": [
+        { "material": "recycled_plastic", "percentage": 70, "co2e_per_kg": 2.0 },
+        { "material": "ink_solution", "percentage": 30, "co2e_per_kg": 4.0 }
+      ],
+      "packaging": { "primary": { "type": "recycled_cardboard", "weight_kg": 0.04 } },
+      "supply_chain": { "legs": [
+        { "distance_km": 11000, "mode": "cargo_ship" },
+        { "distance_km": 400, "mode": "diesel_truck" }
+      ]},
+      "location_density": "urban"
+    },
+    "highest_contributor": "material"
+  },
+  {
+    "id": 55,
+    "name": "Pilot Metropolitan Fountain Pen, Black Ink, Medium Nib",
+    "category": "Office Supplies",
+    "subcategory": "Pens",
+    "img_url": "https://i5.walmartimages.com/seo/Pilot-Metropolitan-Collection-Fountain-Pen-Gold-Barrel-Classic-Design-Medium-Nib-Medium-Nib-Black-Ink-91119_d88de435-59f8-4e16-b0bb-2abcd15b40d4.0ff48a8c12e15d706d8f3fd4eb37062d.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF",
+    "price": 1709.92,
+    "originalPrice": 2137.22,
+    "carbonData": {
+      "weight_kg": 0.25,
+      "origin_country": "JP",
+      "destination_country": "US",
+      "material_composition": [
+        { "material": "recycled_metal", "percentage": 60, "co2e_per_kg": 4.0 },
+        { "material": "recycled_plastic", "percentage": 20, "co2e_per_kg": 2.0 },
+        { "material": "ink_solution", "percentage": 20, "co2e_per_kg": 4.0 }
+      ],
+      "packaging": { "primary": { "type": "recycled_cardboard", "weight_kg": 0.05 } },
+      "supply_chain": { "legs": [
+        { "distance_km": 11000, "mode": "cargo_ship" },
+        { "distance_km": 300, "mode": "diesel_truck" }
+      ]},
+      "location_density": "urban"
+    },
+    "highest_contributor": "material"
+  },
+
+  {
+    "id": 56,
+    "name": "Mead Spiral Notebooks, College Ruled, 5 Pack",
+    "category": "Office Supplies",
+    "subcategory": "Notebooks",
+    "img_url": "https://i5.walmartimages.com/seo/Mead-Spiral-Notebook-5-Subject-College-Ruled-Plastic-Cover-8-12-x-11-5-Pack_c15bdc73-df9c-4947-aee9-691efcaaf31e.81398afa514d6716d8b68833ba8bd683.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF",
+    "price": 533.54,
+    "originalPrice": 649.22,
+    "carbonData": {
+      "weight_kg": 1.0,
+      "origin_country": "US",
+      "destination_country": "US",
+      "material_composition": [
+        { "material": "recycled_paper", "percentage": 100, "co2e_per_kg": 1.5 }
+      ],
+      "packaging": { "primary": { "type": "recycled_cardboard", "weight_kg": 0.1 } },
+      "supply_chain": { "legs": [{ "distance_km": 200, "mode": "diesel_truck" }] },
+      "location_density": "urban"
+    },
+    "highest_contributor": "material"
+  },
+  {
+    "id": 57,
+    "name": "Five Star Spiral Notebooks, College Ruled, 3 Pack",
+    "category": "Office Supplies",
+    "subcategory": "Notebooks",
+    "img_url": "https://i5.walmartimages.com/seo/3-pack-Five-Star-Spiral-Notebook-2-Subject-College-Ruled-6-x-9-12-Amethyst-Purple_be3e53a7-38f3-4195-ab2b-28742e37d799.dab4b5b22ccf9f24e47100c39a229b83.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF",
+    "price": 681.92,
+    "originalPrice": 854.22,
+    "carbonData": {
+      "weight_kg": 0.9,
+      "origin_country": "US",
+      "destination_country": "US",
+      "material_composition": [
+        { "material": "recycled_paper", "percentage": 100, "co2e_per_kg": 1.5 }
+      ],
+      "packaging": { "primary": { "type": "recycled_cardboard", "weight_kg": 0.08 } },
+      "supply_chain": { "legs": [{ "distance_km": 250, "mode": "diesel_truck" }] },
+      "location_density": "urban"
+    },
+    "highest_contributor": "material"
+  },
+  {
+    "id": 58,
+    "name": "TOPS Legal Pads, 8.5 x 11.75, White, 12 Pack",
+    "category": "Office Supplies",
+    "subcategory": "Notebooks",
+    "img_url": "https://i5.walmartimages.com/seo/TOPS-The-Legal-Pad-Writing-Pads-Legal-Rule-50-Sheets-8-1-2-x-11-3-4-White-12-Pack_8fe6fee5-a1d4-4a44-a708-7686fe5a46c9.ca438399be4be69ba472486e6cd19d3e.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF",
+    "price": 1278.52,
+    "originalPrice": 1627.22,
+    "carbonData": {
+      "weight_kg": 2.0,
+      "origin_country": "US",
+      "destination_country": "US",
+      "material_composition": [
+        { "material": "recycled_paper", "percentage": 100, "co2e_per_kg": 1.5 }
+      ],
+      "packaging": { "primary": { "type": "recycled_cardboard", "weight_kg": 0.15 } },
+      "supply_chain": { "legs": [{ "distance_km": 150, "mode": "diesel_truck" }] },
+      "location_density": "urban"
+    },
+    "highest_contributor": "material"
+  },
+  {
+    "id": 59,
+    "name": "Oxford Stone Paper Notebook, 5.5 x 8.5, 60 Sheets",
+    "category": "Office Supplies",
+    "subcategory": "Notebooks",
+    "img_url": "https://i5.walmartimages.com/seo/Oxford-Stone-Paper-Notebook-5-1-2-x-8-1-2-Blue-Cover-60-Sheets-2-Pack-161641_6fc08818-0735-442c-9c70-458c08d9c1bc.60a4f582213989c36997782f473fc3b9.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF",
+    "price": 426.72,
+    "originalPrice": 512.38,
+    "carbonData": {
+      "weight_kg": 0.3,
+      "origin_country": "CN",
+      "destination_country": "US",
+      "material_composition": [
+        { "material": "stone_paper", "percentage": 80, "co2e_per_kg": 1.0 },
+        { "material": "recycled_plastic", "percentage": 20, "co2e_per_kg": 2.0 }
+      ],
+      "packaging": { "primary": { "type": "recycled_cardboard", "weight_kg": 0.02 } },
+      "supply_chain": { "legs": [
+        { "distance_km": 12000, "mode": "cargo_ship" },
+        { "distance_km": 200, "mode": "diesel_truck" }
+      ]},
+      "location_density": "urban"
+    },
+    "highest_contributor": "material"
+  },
+  {
+    "id": 60,
+    "name": "Cambridge Limited Business Notebook, 8.5 x 11, 80 Sheets",
+    "category": "Office Supplies",
+    "subcategory": "Notebooks",
+    "img_url": "https://i5.walmartimages.com/seo/Cambridge-Limited-30-Recycled-Business-Notebook-8-1-2-x-11-1-Subject-Legal-Ruled-80-Sheets-Black_a6989e75-effb-43f9-87a6-1b3ab18fb8f6.e509a78840238ed62207e0cb0587427d.jpeg?odnHeight=573&odnWidth=573&odnBg=FFFFFF",
+    "price": 383.22,
+    "originalPrice": 469.22,
+    "carbonData": {
+      "weight_kg": 0.4,
+      "origin_country": "US",
+      "destination_country": "US",
+      "material_composition": [
+        { "material": "recycled_paper", "percentage": 100, "co2e_per_kg": 1.5 }
+      ],
+      "packaging": { "primary": { "type": "recycled_cardboard", "weight_kg": 0.03 } },
+      "supply_chain": { "legs": [{ "distance_km": 150, "mode": "diesel_truck" }] },
+      "location_density": "urban"
+    },
+    "highest_contributor": "material"
+  }
+]

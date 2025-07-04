@@ -1,7 +1,11 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import './HeroSection.css';
+import { useNavigate } from 'react-router-dom';
+import { CartContext } from '../context/CartContext.jsx';
 
 export default function HeroSection() {
+  const navigate = useNavigate();
+  const { cartCount } = useContext(CartContext);
   return (
     <section className="relative bg-gradient-to-r from-blue-600 to-blue-800 text-white py-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -18,7 +22,7 @@ export default function HeroSection() {
               Earn points for eco-friendly purchases and track your environmental impact with Walmart.
             </p>
             <div className="flex space-x-4">
-              <button className="hero-button-primary"> Shop Now </button>
+              <button className="hero-button-primary" onClick={() => navigate('/shop')}> Shop Now </button>
               <button className="hero-button-secondary"> Learn More </button>
             </div>
           </div>

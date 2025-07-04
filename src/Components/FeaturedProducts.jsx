@@ -1,10 +1,13 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
 import ProductCard from './ProductCard';
 import ProductDetails from './ProductDetails';
-import productsData from '../data/productsData.json';
+import productsData from '../../public/data/Products60.json';
+import Header from './Header';
+import { CartContext } from '../context/CartContext.jsx';
 
-export default function FeaturedProducts({ addToCart }) {
+export default function FeaturedProducts() {
   const [selectedProduct, setSelectedProduct] = useState(null);
+  const { addToCart, cartCount } = useContext(CartContext);
 
   const handleProductClick = (product) => {
     setSelectedProduct(product);
@@ -16,6 +19,7 @@ export default function FeaturedProducts({ addToCart }) {
 
   return (
     <>
+      <Header cartCount={cartCount} searchQuery={''} setSearchQuery={() => {}} />
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center mb-12">
@@ -26,7 +30,6 @@ export default function FeaturedProducts({ addToCart }) {
               <ProductCard 
                 key={product.id} 
                 product={product} 
-                addToCart={addToCart}
                 onProductClick={handleProductClick}
               />
             ))}
@@ -39,7 +42,6 @@ export default function FeaturedProducts({ addToCart }) {
         <ProductDetails
           product={selectedProduct}
           onClose={handleCloseDetails}
-          addToCart={addToCart}
         />
       )}
     </>

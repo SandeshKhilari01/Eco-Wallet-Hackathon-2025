@@ -1,13 +1,14 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Heart, Star } from 'lucide-react';
 import './ProductCard.css';
+import { CartContext } from '../context/CartContext.jsx';
 
-export default function ProductCard({ product, addToCart, onProductClick }) {
+export default function ProductCard({ product, onProductClick }) {
+  const { addToCart } = useContext(CartContext);
   return (
     <div className="product-card" onClick={() => onProductClick(product)}>
       <div className="product-image-container">
-        <img src={product.image} alt={product.name} className="product-image" />
-        {product.badge && <span className="badge">{product.badge}</span>}
+        <img src={product.img_url} alt={product.name} className="product-image" />
         <button 
           className="wishlist-button"
           onClick={(e) => e.stopPropagation()} // Prevent card click when clicking wishlist
@@ -17,7 +18,6 @@ export default function ProductCard({ product, addToCart, onProductClick }) {
       </div>
       <div className="product-details">
         <h3 className="product-name">{product.name}</h3>
-        <p className="product-brand">{product.brand}</p>
         <div className="product-rating">
           {[...Array(5)].map((_, i) => (
             <Star
@@ -30,12 +30,11 @@ export default function ProductCard({ product, addToCart, onProductClick }) {
         <div className="product-price-info">
           <span className="product-price">₹{product.price}</span>
           <span className="product-original-price">₹{product.originalPrice}</span>
-          <span className="co2-saved">{product.co2SavedKg}kg CO₂ Saved</span>
         </div>
         <button 
           onClick={(e) => {
             e.stopPropagation(); // Prevent card click when clicking add to cart
-            addToCart(product.id);
+            addToCart(product.id, product);
           }} 
           className="add-to-cart-button"
         >

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Search, ShoppingCart, User, Menu, Heart, MapPin } from 'lucide-react';
 import './Header.css';
+import { Link } from 'react-router-dom';
 
 export default function Header({ cartCount, searchQuery, setSearchQuery }) {
   return (
@@ -21,8 +22,10 @@ export default function Header({ cartCount, searchQuery, setSearchQuery }) {
         <div className="header-main">
           {/* Left */}
           <div className="header-left">
-          <img src="https://mindythelion.com/wp-content/uploads/2016/09/walmart-logo-png-6.png" alt="Walmart Logo" className="header-logo-img"/>
-          <h1 className="header-logo">Walmart</h1>
+            <Link to="/">
+              <img src="https://mindythelion.com/wp-content/uploads/2016/09/walmart-logo-png-6.png" alt="Walmart Logo" className="header-logo-img"/>
+            </Link>
+            <h1 className="header-logo">Walmart</h1>
             <button className="header-button">
               <Menu className="w-5 h-5" />
               <span>Departments</span>
@@ -49,12 +52,14 @@ export default function Header({ cartCount, searchQuery, setSearchQuery }) {
             <Heart className="w-6 h-6 header-icon" />
             <User className="w-6 h-6 header-icon" />
             <div className="relative cursor-pointer">
-              <ShoppingCart className="w-6 h-6 header-icon" />
-              {cartCount > 0 && (
-                <span className="header-cart-badge">
-                  {cartCount}
-                </span>
-              )}
+              <Link to="/cart">
+                <ShoppingCart className="w-6 h-6 header-icon" />
+                {cartCount > 0 && (
+                  <span className="header-cart-badge">
+                    {cartCount}
+                  </span>
+                )}
+              </Link>
             </div>
           </div>
         </div>

@@ -1,8 +1,10 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
 import { Heart, Star, ArrowLeft, Leaf, Package, Truck, Award } from 'lucide-react';
 import './ProductDetails.css';
+import { CartContext } from '../context/CartContext.jsx';
 
-export default function ProductDetails({ product, onClose, addToCart }) {
+export default function ProductDetails({ product, onClose }) {
+  const { addToCart } = useContext(CartContext);
   const [quantity, setQuantity] = useState(1);
   const [isWishlisted, setIsWishlisted] = useState(false);
 
@@ -10,7 +12,7 @@ export default function ProductDetails({ product, onClose, addToCart }) {
 
   const handleAddToCart = () => {
     for (let i = 0; i < quantity; i++) {
-      addToCart(product.id);
+      addToCart(product.id, product);
     }
   };
 
@@ -30,8 +32,7 @@ export default function ProductDetails({ product, onClose, addToCart }) {
           {/* Product Image Section */}
           <div className="product-image-section">
             <div className="product-image-container">
-              <img src={product.image} alt={product.name} className="product-detail-image" />
-              {product.badge && <span className="product-badge">{product.badge}</span>}
+              <img src={product.img_url} alt={product.name} className="product-detail-image" />
             </div>
           </div>
 
@@ -40,7 +41,6 @@ export default function ProductDetails({ product, onClose, addToCart }) {
             <div className="product-header">
               <div className="product-title-section">
                 <h1 className="product-title">{product.name}</h1>
-                <p className="product-brand">{product.brand}</p>
               </div>
               <button 
                 className={`wishlist-btn ${isWishlisted ? 'wishlisted' : ''}`}
@@ -77,29 +77,32 @@ export default function ProductDetails({ product, onClose, addToCart }) {
             </div>
 
             {/* Tags Section */}
-            <div className="tags-section">
-              {product.tags.map((tag, index) => (
-                <span key={index} className="product-tag">
-                  {tag}
-                </span>
-              ))}
-            </div>
+            {Array.isArray(product.tags) && product.tags.length > 0 && (
+              <div className="tags-section">
+                {product.tags.map((tag, index) => (
+                  <span key={index} className="product-tag">
+                    {tag}
+                  </span>
+                ))}
+              </div>
+            )}
 
             {/* Impact Section */}
-            <div>
+            {product.carbonData && (
               <div className="co2-highlight">
                 <div className="co2-circle">
                   <Leaf className="co2-icon" size={24} />
                   <div className="co2-text">
-                    <span className="co2-amount">{product.co2SavedKg}kg</span>
-                    <span className="co2-label">CO₂ Saved</span>
+                    <span className="co2-amount">{product.carbonData.weight_kg}kg</span>
+                    <span className="co2-label">Product Weight</span>
                   </div>
                 </div>
                 <div className="co2-description">
-                  <p>Equivalent to planting <strong>{Math.round(product.co2SavedKg * 0.06)} trees</strong> or driving <strong>{Math.round(product.co2SavedKg * 2.3)} km</strong> less!</p>
+                  <p>Category: <strong>{product.carbonData.category}</strong></p>
+                  <p>Origin: <strong>{product.carbonData.origin_country}</strong> → {product.carbonData.destination_country}</p>
                 </div>
               </div>
-            </div>
+            )}
 
             {/* Quantity and Add to Cart Section */}
             <div className="purchase-section">
@@ -128,12 +131,14 @@ export default function ProductDetails({ product, onClose, addToCart }) {
             </div>
 
             {/* Points Section */}
-            <div className="points-section">
-              <div className="points-info">
-                <span className="points-label">Earn Points:</span>
-                <span className="points-value">{product.points * quantity} points</span>
+            {typeof product.points === 'number' && (
+              <div className="points-section">
+                <div className="points-info">
+                  <span className="points-label">Earn Points:</span>
+                  <span className="points-value">{product.points * quantity} points</span>
+                </div>
               </div>
-            </div>
+            )}
           </div>
         </div>
       </div>

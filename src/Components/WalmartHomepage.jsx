@@ -1,18 +1,17 @@
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 import Header from './Header';
 import HeroSection from './HeroSection';
 import CategoriesSection from './CategoriesSection';
 import FeaturedProducts from './FeaturedProducts';
 import Footer from './Footer';
+import { CartContext } from '../context/CartContext.jsx';
 
 export default function WalmartHomepage() {
-  const [cartCount, setCartCount] = useState(0);
+  const { cartCount, addToCart } = useContext(CartContext);
   const [searchQuery, setSearchQuery] = useState('');
 
   const categories = [/* same as before */];
   const featuredProducts = [/* same as before */];
-
-  const addToCart = (id) => setCartCount(cartCount + 1);
 
   return (
     <div className="min-h-screen bg-gray-50">

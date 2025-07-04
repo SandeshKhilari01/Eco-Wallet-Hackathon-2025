@@ -6,7 +6,7 @@ export default function Header({ cartCount, searchQuery, setSearchQuery }) {
   return (
     <header className="header">
       <div className="max-w-7xl mx-auto">
-        {/* Top Bar */}
+        {/* Top Bar
         <div className="header-top">
           <div className="location">
             <MapPin className="w-4 h-4" />
@@ -15,7 +15,7 @@ export default function Header({ cartCount, searchQuery, setSearchQuery }) {
           <div className="account">
             <span>Hi, Guest</span><span>|</span><span>Account</span><span>|</span><span>Sign In</span>
           </div>
-        </div>
+        </div> */}
 
         {/* Main Header */}
         <div className="header-main">

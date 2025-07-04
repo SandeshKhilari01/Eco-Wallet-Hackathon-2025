@@ -1,0 +1,79 @@
+.user-dashboard {
+  max-width: 500px;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  padding: 32px 24px;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #e5e5e5;
+  padding-bottom: 24px;
+  margin-bottom: 24px;
+}
+
+.profile-pic {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #0071dc;
+  margin-right: 24px;
+  background: #f3f3f3;
+}
+
+.user-info h2 {
+  margin: 0 0 8px 0;
+  font-size: 1.5rem;
+  color: #222;
+}
+
+.user-info p {
+  margin: 0;
+  color: #666;
+  font-size: 1rem;
+}
+
+.user-details h3 {
+  margin-bottom: 12px;
+  color: #0071dc;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.user-details ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 24px 0;
+}
+
+.user-details li {
+  margin-bottom: 8px;
+  color: #222;
+  font-size: 1rem;
+}
+
+.user-actions {
+  display: flex;
+  gap: 12px;
+  justify-content: flex-end;
+}
+
+.user-actions button {
+  background: #0071dc;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 18px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.user-actions button:hover {
+  background: #005cb8;
+}

@@ -1,9 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Search, ShoppingCart, User, Menu, Heart, MapPin } from 'lucide-react';
 import './Header.css';
+<<<<<<< HEAD
 import { Link } from 'react-router-dom';
+=======
+import UserDetail from './UserDetail';
+>>>>>>> cdcf8165bd37e83a90a849135bd05510c2d8bc5a
 
 export default function Header({ cartCount, searchQuery, setSearchQuery }) {
+  const [showUserDetail, setShowUserDetail] = useState(false);
+
   return (
     <header className="header">
       <div className="max-w-7xl mx-auto">
@@ -50,7 +56,9 @@ export default function Header({ cartCount, searchQuery, setSearchQuery }) {
           {/* Right */}
           <div className="header-icons">
             <Heart className="w-6 h-6 header-icon" />
-            <User className="w-6 h-6 header-icon" />
+            <span onClick={() => setShowUserDetail(true)} style={{cursor: 'pointer'}}>
+              <User className="w-6 h-6 header-icon" />
+            </span>
             <div className="relative cursor-pointer">
               <Link to="/cart">
                 <ShoppingCart className="w-6 h-6 header-icon" />
@@ -64,6 +72,14 @@ export default function Header({ cartCount, searchQuery, setSearchQuery }) {
           </div>
         </div>
       </div>
+      {showUserDetail && (
+        <div className="user-detail-modal">
+          <div className="user-detail-modal-content">
+            <button className="user-detail-close" onClick={() => setShowUserDetail(false)}>&times;</button>
+            <UserDetail />
+          </div>
+        </div>
+      )}
     </header>
   );
 }

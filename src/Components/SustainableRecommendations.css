@@ -1,0 +1,410 @@
+/* src/Components/SustainableRecommendations.css */
+.sustainability-container {
+    background-color: #f9fafb;
+    border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 24px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    border: 1px solid #e5e7eb;
+  }
+  
+  .sustainability-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #e5e7eb;
+  }
+  
+  .sustainability-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .leaf-icon {
+    color: #10b981;
+    width: 24px;
+    height: 24px;
+  }
+  
+  .sustainability-title h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #111827;
+    margin: 0;
+  }
+  
+  .overall-score {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .score-circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 4px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+  }
+  
+  .score-value {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  
+  .score-label {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    line-height: 1.2;
+  }
+  
+  .score-label p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #4b5563;
+  }
+  
+  .sustainability-loading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    background-color: #f9fafb;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    margin-bottom: 24px;
+  }
+  
+  .sustainability-loading-spinner {
+    width: 40px;
+    height: 40px;
+    border: 4px solid #e5e7eb;
+    border-top: 4px solid #0071dc;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin-bottom: 16px;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  .sustainability-insight {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    background-color: #f0f9ff;
+    padding: 16px;
+    border-radius: 8px;
+    margin-bottom: 24px;
+    border-left: 4px solid #0ea5e9;
+  }
+  
+  .insight-icon {
+    color: #0ea5e9;
+    flex-shrink: 0;
+  }
+  
+  .sustainability-insight p {
+    margin: 0;
+    color: #1e3a8a;
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+  
+  .recommendations-section {
+    margin-bottom: 32px;
+  }
+  
+  .recommendations-section h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #111827;
+    margin-bottom: 16px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #e5e7eb;
+  }
+  
+  .recommendations-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 16px;
+  }
+  
+  .recommendation-card {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    border: 1px solid #e5e7eb;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .recommendation-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .recommendation-image {
+    height: 140px;
+    position: relative;
+    background-color: #f5f5f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .recommendation-image img {
+    max-height: 120px;
+    max-width: 90%;
+    object-fit: contain;
+  }
+  
+  .eco-badge {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    background-color: #10b981;
+    color: white;
+    font-size: 10px;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+  
+  .recommendation-details {
+    padding: 14px;
+  }
+  
+  .recommendation-details h4 {
+    font-size: 0.95rem;
+    font-weight: 600;
+    margin: 0 0 8px 0;
+    color: #111827;
+    line-height: 1.3;
+    height: 40px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+  
+  .recommendation-price {
+    font-weight: 700;
+    color: #111827;
+    margin: 0 0 8px 0;
+  }
+  
+  .sustainability-highlight {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #10b981;
+    font-size: 0.8rem;
+    margin: 0 0 8px 0;
+    line-height: 1.4;
+  }
+  
+  .recommendation-reason {
+    font-size: 0.8rem;
+    color: #4b5563;
+    margin: 0 0 12px 0;
+    height: 36px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+  
+  .add-recommendation-btn {
+    width: 100%;
+    background-color: #0071dc;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 12px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .add-recommendation-btn:hover {
+    background-color: #005cb8;
+  }
+  
+  .cart-scores-section {
+    margin-top: 24px;
+  }
+  
+  .cart-scores-section h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #111827;
+    margin-bottom: 16px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #e5e7eb;
+  }
+  
+  .cart-scores-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .cart-score-item {
+    display: flex;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    border: 1px solid #e5e7eb;
+    padding: 16px;
+    gap: 20px;
+  }
+  
+  .cart-score-product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 120px;
+    flex-shrink: 0;
+  }
+  
+  .cart-score-image {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    margin-bottom: 8px;
+  }
+  
+  .cart-score-name {
+    font-size: 0.85rem;
+    text-align: center;
+    color: #111827;
+    font-weight: 500;
+  }
+  
+  .cart-score-details {
+    display: flex;
+    flex: 1;
+    gap: 20px;
+  }
+  
+  .cart-score-circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 3px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    font-weight: 700;
+    font-size: 1.1rem;
+    flex-shrink: 0;
+  }
+  
+  .cart-score-factors {
+    display: flex;
+    flex: 1;
+    gap: 24px;
+  }
+  
+  .positive-factors, .negative-factors {
+    flex: 1;
+  }
+  
+  .positive-factors h4, .negative-factors h4 {
+    font-size: 0.9rem;
+    margin: 0 0 8px 0;
+    color: #111827;
+  }
+  
+  .positive-factors h4 {
+    color: #10b981;
+  }
+  
+  .negative-factors h4 {
+    color: #f59e0b;
+  }
+  
+  .cart-score-factors ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .cart-score-factors li {
+    display: flex;
+    align-items: flex-start;
+    gap: 6px;
+    font-size: 0.85rem;
+    margin-bottom: 6px;
+    color: #4b5563;
+    line-height: 1.4;
+  }
+  
+  .positive-factors li svg {
+    color: #10b981;
+  }
+  
+  .negative-factors li svg {
+    color: #f59e0b;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .recommendations-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .cart-score-item {
+      flex-direction: column;
+    }
+    
+    .cart-score-product {
+      width: 100%;
+      flex-direction: row;
+      gap: 12px;
+      margin-bottom: 16px;
+    }
+    
+    .cart-score-details {
+      flex-direction: column;
+    }
+    
+    .cart-score-circle {
+      align-self: flex-start;
+    }
+  }
+  
+  @media (max-width: 640px) {
+    .recommendations-grid {
+      grid-template-columns: 1fr;
+    }
+    
+    .cart-score-factors {
+      flex-direction: column;
+      gap: 16px;
+    }
+    
+    .sustainability-header {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 16px;
+    }
+    
+    .overall-score {
+      align-self: flex-start;
+    }
+  }

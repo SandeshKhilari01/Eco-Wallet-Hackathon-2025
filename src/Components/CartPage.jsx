@@ -1,11 +1,21 @@
-import React, { useContext } from 'react';
+// src/Components/CartPage.jsx
+import React, { useContext, useState, useEffect } from 'react';
 import { CartContext } from '../context/CartContext.jsx';
 import Header from './Header';
+import SustainableRecommendations from './SustainableRecommendations';
 import './CartPage.css';
 
 export default function CartPage() {
   const { cart, updateQuantity, removeFromCart, clearCart, cartCount } = useContext(CartContext);
-  const [searchQuery, setSearchQuery] = React.useState('');
+  const [searchQuery, setSearchQuery] = useState('');
+  const [userAddress, setUserAddress] = useState('');
+  
+  // Get user address from the profile
+  useEffect(() => {
+    // In a real app, this might come from an API or context
+    // For this demo, we'll use the hardcoded user profile data
+    setUserAddress("123 Main St, Springfield, USA");
+  }, []);
 
   const total = cart.reduce((sum, item) => sum + item.price * item.quantity, 0);
   const tax = Math.round(total * 0.08 * 100) / 100; // 8% tax example
@@ -30,6 +40,9 @@ export default function CartPage() {
             <div className="empty-cart">Your cart is empty.</div>
           ) : (
             <>
+              {/* Sustainability Recommendations */}
+              <SustainableRecommendations userAddress={userAddress} />
+              
               <div className="select-all-container">
                 <input type="checkbox" className="select-all-checkbox" />
                 <span className="select-all-text">Choose All Product</span>
@@ -52,23 +65,34 @@ export default function CartPage() {
                       <div className="cart-item-description">
                         {item.description || ''}
                       </div>
-                      <div className="cart-item-size">Size: 100ml</div>
+                      <div className="cart-item-size">
+                        {item.size || 'Standard'}
+                      </div>
                       <div className="cart-item-controls">
-                        <span className="cart-item-price">${item.price.toFixed(2)}</span>
+                        <div className="quantity-control">
+                          <button 
+                            className="quantity-btn"
+                            onClick={() => updateQuantity(item.id, Math.max(1, item.quantity - 1))}
+                          >
+                            -
+                          </button>
+                          <span className="quantity-value">{item.quantity}</span>
+                          <button 
+                            className="quantity-btn"
+                            onClick={() => updateQuantity(item.id, item.quantity + 1)}
+                          >
+                            +
+                          </button>
+                        </div>
+                        
+                        <div className="cart-item-price">₹{item.price}</div>
+                        
                         <button 
-                          className="remove-btn" 
-                          onClick={() => removeFromCart(item.id)} 
-                          title="Remove"
+                          className="remove-btn"
+                          onClick={() => removeFromCart(item.id)}
                         >
-                          🗑️
+                          Remove
                         </button>
-                        <input
-                          type="number"
-                          min="1"
-                          value={item.quantity}
-                          onChange={e => updateQuantity(item.id, Math.max(1, Number(e.target.value)))}
-                          className="quantity-input"
-                        />
                       </div>
                     </div>
                   </div>
@@ -77,47 +101,51 @@ export default function CartPage() {
             </>
           )}
         </div>
-
+        
         {/* Order Summary Section */}
-        <div className="order-summary-section walmart-accent">
-          <h2 className="order-summary-title">Order Summary</h2>
-          
-          <ul className="order-items-list">
-            {cart.map(item => (
-              <li key={item.id} className="order-item">
-                <span className="order-item-name">
-                  {item.quantity}x {item.name}
-                </span>
-                <span className="order-item-price">
-                  ${(item.price * item.quantity).toFixed(2)}
-                </span>
-              </li>
-            ))}
-          </ul>
-          
-          <div className="order-calculation">
-            <span className="order-calculation-label">Delivery</span>
-            <span className="order-calculation-value">${delivery.toFixed(2)}</span>
+        {cart.length > 0 && (
+          <div className="order-summary-section">
+            <h2 className="order-summary-title">Order Summary</h2>
+            
+            <div className="summary-row">
+              <span>Subtotal ({cart.length} items)</span>
+              <span>₹{total.toFixed(2)}</span>
+            </div>
+            
+            <div className="summary-row">
+              <span>Tax</span>
+              <span>₹{tax.toFixed(2)}</span>
+            </div>
+            
+            <div className="summary-row">
+              <span>Delivery</span>
+              <span>₹{delivery.toFixed(2)}</span>
+            </div>
+            
+            <div className="summary-divider"></div>
+            
+            <div className="summary-row total">
+              <span>Order Total</span>
+              <span>₹{orderTotal}</span>
+            </div>
+            
+            <button className="checkout-btn">Proceed to Checkout</button>
+            
+            <div className="promo-code">
+              <input type="text" placeholder="Enter promo code" />
+              <button>Apply</button>
+            </div>
+            
+            <div className="accepted-payment">
+              <div className="payment-label">We Accept</div>
+              <div className="payment-icons">
+                <span className="payment-icon">💳</span>
+                <span className="payment-icon">💵</span>
+                <span className="payment-icon">🏦</span>
+              </div>
+            </div>
           </div>
-          
-          <div className="order-calculation">
-            <span className="order-calculation-label">Tax</span>
-            <span className="order-calculation-value">${tax.toFixed(2)}</span>
-          </div>
-          
-          <div className="order-total">
-            <span>Order Total</span>
-            <span className="order-total-value">${orderTotal}</span>
-          </div>
-          
-          <input 
-            type="text" 
-            placeholder="Add coupon code here" 
-            className="coupon-input"
-          />
-          
-          <button className="checkout-btn">Checkout</button>
-        </div>
+        )}
       </div>
     </div>
   );

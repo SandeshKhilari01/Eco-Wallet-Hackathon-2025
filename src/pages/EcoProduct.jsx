@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 import { Leaf, Wallet, Check, X, ShoppingBag } from 'lucide-react';
+import { CartContext } from '../context/CartContext.jsx';
 
 const productsData = [
   {
@@ -77,7 +78,7 @@ const productsData = [
   },
   {
     id: 4,
-    name: "QuickFly Lyocell Tank Sustainable Green Cotton",
+    name: "QuickFly Lyocell Tank Green Cotton Tee",
     img_url: "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ0KxFv0x13si1p7A-a_MboWdcqj65KMoPbzwtqaKwd8KPHHCZAlkotWZvTVJfUcZxGKyykO1I",
     price: 220,
     originalPrice: 250,
@@ -229,14 +230,14 @@ function SuccessModal({ product, onClose }) {
 }
 
 export default function EcoWalletStore() {
-  const [walletBalance, setWalletBalance] = useState(3200); // Starting balance
+  const { ecoPoints, addEcoPoints } = useContext(CartContext);
   const [showSuccessModal, setShowSuccessModal] = useState(false);
   const [redeemedProduct, setRedeemedProduct] = useState(null);
 
   const handleRedeem = (product) => {
-    const ecoPoints = product.price * 4;
-    if (walletBalance >= ecoPoints) {
-      setWalletBalance(walletBalance - ecoPoints);
+    const ecoPointsCost = product.price * 4;
+    if (ecoPoints >= ecoPointsCost) {
+      addEcoPoints(-ecoPointsCost);
       setRedeemedProduct(product);
       setShowSuccessModal(true);
     }
@@ -250,7 +251,32 @@ export default function EcoWalletStore() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-green-50 via-emerald-50 to-teal-50">
       {/* Header */}
-      
+      <div className="bg-white shadow-lg border-b border-green-100">
+        <div className="max-w-7xl mx-auto px-4 py-6">
+          <div className="flex items-center justify-between">
+            <div className="flex items-center gap-3">
+              <div className="w-12 h-12 bg-gradient-to-r from-green-500 to-emerald-600 rounded-full flex items-center justify-center">
+                <Leaf className="text-white" size={24} />
+              </div>
+              <div>
+                <h1 className="text-3xl font-bold text-green-800">EcoWallet Store</h1>
+                <p className="text-green-600 text-sm">Redeem your eco points for sustainable products</p>
+              </div>
+            </div>
+            <div className="flex items-center gap-4">
+              <div className="bg-gradient-to-r from-green-500 to-emerald-600 text-white px-6 py-3 rounded-xl shadow-lg">
+                <div className="flex items-center gap-2">
+                  <Wallet size={20} />
+                  <div>
+                    <p className="text-xs opacity-90">Your Balance</p>
+                    <p className="text-xl font-bold">{ecoPoints.toLocaleString()} Points</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
       {/* Main Content */}
       <div className="max-w-7xl mx-auto px-4 py-12">
@@ -270,7 +296,7 @@ export default function EcoWalletStore() {
               key={product.id}
               product={product}
               onRedeem={handleRedeem}
-              walletBalance={walletBalance}
+              walletBalance={ecoPoints}
             />
           ))}
         </div>

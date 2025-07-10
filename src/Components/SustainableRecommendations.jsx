@@ -40,6 +40,9 @@ const SustainableRecommendations = ({ userAddress }) => {
           totalScore += scores[index].score;
         });
         
+        // Store the totalScore in localStorage
+        localStorage.setItem("totalScore", totalScore);
+        
         // Calculate average score
         const avgScore = cart.length > 0 ? totalScore / cart.length : 0;
         
@@ -65,6 +68,17 @@ const SustainableRecommendations = ({ userAddress }) => {
 
     fetchSustainabilityData();
   }, [cart, userAddress]);
+
+  // Function to handle adding a product to cart and removing it from recommendations
+  const handleAddToCartAndRemove = (product) => {
+    // Add the product to cart
+    addToCart(product.id, product);
+    
+    // Remove the product from recommendations
+    setRecommendations(prevRecommendations => 
+      prevRecommendations.filter(item => item.id !== product.id)
+    );
+  };
 
   const getScoreColor = (score) => {
     if (score >= 70) return '#10b981'; // Green
@@ -117,6 +131,17 @@ const SustainableRecommendations = ({ userAddress }) => {
         </p>
       </div>
 
+      {/* Eco Points Preview */}
+      <div className="eco-points-preview">
+        <div className="eco-points-icon">
+          <Leaf size={20} />
+        </div>
+        <div className="eco-points-text">
+          <p>Potential EcoPoints: <span className="points-value">{Math.round(Number(localStorage.getItem("totalScore")) || 0)}</span></p>
+          <p className="points-description">Complete your purchase to earn these points!</p>
+        </div>
+      </div>
+
       {recommendations.length > 0 && (
         <div className="recommendations-section">
           <h3>Recommended Sustainable Alternatives</h3>
@@ -135,12 +160,15 @@ const SustainableRecommendations = ({ userAddress }) => {
                     {product.sustainabilityHighlight || product.impact?.emissions || "Eco-friendly"}
                   </p>
                   <p className="recommendation-reason">{product.reason || "Sustainable alternative"}</p>
-                  <button 
-                    className="add-recommendation-btn"
-                    onClick={() => addToCart(product.id, product)}
-                  >
-                    Add to Cart
-                  </button>
+                  
+                  <div className="recommendation-actions">
+                    <button 
+                      className="add-recommendation-btn"
+                      onClick={() => handleAddToCartAndRemove(product)}
+                    >
+                      Add to Cart
+                    </button>
+                  </div>
                 </div>
               </div>
             ))}

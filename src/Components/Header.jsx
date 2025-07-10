@@ -26,7 +26,7 @@ export default function Header({ cartCount, searchQuery, setSearchQuery }) {
                 <Menu className="w-5 h-5" />
                 <span>Departments</span>
               </button>
-              <span className="header-link">Services</span>
+              <Link to="/ecostore" className="header-link">EcoStore</Link>
             </div>
 
             {/* Search */}

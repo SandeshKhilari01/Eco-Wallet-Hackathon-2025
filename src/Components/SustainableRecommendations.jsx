@@ -38,6 +38,7 @@ const SustainableRecommendations = ({ userAddress }) => {
         cart.forEach((item, index) => {
           scoresMap[item.id] = scores[index];
           totalScore += scores[index].score;
+          localStorage.setItem("totalScore", totalScore);
         });
         
         // Calculate average score

@@ -23,21 +23,21 @@ export default function CartPage() {
   const orderTotal = (total + tax + delivery).toFixed(2);
 
   return (
-    <div className="cart-page">
+    <div className="cart-page desktop-optimized">
       <Header cartCount={cartCount} searchQuery={searchQuery} setSearchQuery={setSearchQuery} />
-      <div className="cart-container">
+      <div className="cart-container desktop-container">
         {/* Cart Items Section */}
-        <div className="cart-items-section walmart-accent">
-          <div className="cart-header">
-            <h1 className="cart-title">
+        <div className="cart-items-section walmart-accent desktop-cart-section">
+          <div className="cart-header desktop-header">
+            <h1 className="cart-title desktop-title">
               My Cart 
               <span className="cart-count-badge">{cart.length}</span>
             </h1>
-            <button className="clear-cart-btn" onClick={clearCart}>Clear Cart</button>
+            <button className="clear-cart-btn desktop-clear-btn" onClick={clearCart}>Clear Cart</button>
           </div>
           
           {cart.length === 0 ? (
-            <div className="empty-cart">Your cart is empty.</div>
+            <div className="empty-cart desktop-empty">Your cart is empty.</div>
           ) : (
             <>
               {/* Sustainability Recommendations */}
@@ -48,23 +48,24 @@ export default function CartPage() {
                 <span className="select-all-text">Choose All Product</span>
               </div>
               
-              <div className="cart-items-list">
+              <div className="cart-items-list desktop-items-list">
                 {cart.map(item => (
-                  <div key={item.id} className="cart-item">
+                  <div key={item.id} className="cart-item desktop-item">
                     <input type="checkbox" className="cart-item-checkbox" />
                     <img 
                       src={item.img_url} 
                       alt={item.name} 
-                      className="cart-item-image"
+                      className="cart-item-image desktop-image"
                     />
-                    <div className="cart-item-details">
-                      <div className="cart-item-name">{item.name}</div>
-                      <div className="cart-item-category">
+                    <div className="cart-item-details desktop-details">
+                      <div className="cart-item-name desktop-name">{item.name}</div>
+                      <div className="cart-item-category desktop-category">
                         {item.carbonData?.category || 'Product Category'}
                       </div>
-                      <div className="cart-item-description">
+                      <div className="cart-item-description desktop-description">
                         {item.description || ''}
                       </div>
+
                       <div className="cart-item-size">
                         {item.size || 'Standard'}
                       </div>
@@ -103,6 +104,7 @@ export default function CartPage() {
         </div>
         
         {/* Order Summary Section */}
+
         {cart.length > 0 && (
           <div className="order-summary-section">
             <h2 className="order-summary-title">Order Summary</h2>

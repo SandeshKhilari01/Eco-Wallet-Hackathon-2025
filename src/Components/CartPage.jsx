@@ -3,12 +3,15 @@ import React, { useContext, useState, useEffect } from 'react';
 import { CartContext } from '../context/CartContext.jsx';
 import Header from './Header';
 import SustainableRecommendations from './SustainableRecommendations';
+import { Leaf } from 'lucide-react';
 import './CartPage.css';
 
 export default function CartPage() {
-  const { cart, updateQuantity, removeFromCart, clearCart, cartCount } = useContext(CartContext);
+  const { cart, updateQuantity, removeFromCart, clearCart, cartCount, handleCheckout, addEcoPoints } = useContext(CartContext);
   const [searchQuery, setSearchQuery] = useState('');
   const [userAddress, setUserAddress] = useState('');
+  const [showSuccessMessage, setShowSuccessMessage] = useState(false);
+  const [pointsAdded, setPointsAdded] = useState(0);
   
   // Get user address from the profile
   useEffect(() => {
@@ -22,9 +25,49 @@ export default function CartPage() {
   const delivery = cart.length > 0 ? 20 : 0;
   const orderTotal = (total + tax + delivery).toFixed(2);
 
+  const onCheckout = () => {
+    // Get totalScore from localStorage
+    const totalScore = localStorage.getItem('totalScore');
+    
+    // Convert to number
+    const ecoPointsToAdd = totalScore ? Math.round(Number(totalScore)) : 0;
+    
+    // Add the eco points from the sustainability score
+    addEcoPoints(ecoPointsToAdd);
+    
+    // Call handleCheckout which will clear the cart
+    handleCheckout();
+    
+    // Set the points added for the success message
+    setPointsAdded(ecoPointsToAdd);
+    
+    // Show success message
+    setShowSuccessMessage(true);
+    
+    // Hide success message after 5 seconds
+    setTimeout(() => {
+      setShowSuccessMessage(false);
+    }, 5000);
+  };
+
   return (
     <div className="cart-page desktop-optimized">
       <Header cartCount={cartCount} searchQuery={searchQuery} setSearchQuery={setSearchQuery} />
+      
+      {showSuccessMessage && (
+        <div className="checkout-success-message">
+          <div className="success-content">
+            <div className="success-icon">
+              <Leaf size={24} />
+            </div>
+            <div className="success-text">
+              <h3>Order Completed!</h3>
+              <p>You've earned {pointsAdded} EcoPoints for sustainable shopping.</p>
+            </div>
+          </div>
+        </div>
+      )}
+      
       <div className="cart-container desktop-container">
         {/* Cart Items Section */}
         <div className="cart-items-section walmart-accent desktop-cart-section">
@@ -104,7 +147,6 @@ export default function CartPage() {
         </div>
         
         {/* Order Summary Section */}
-
         {cart.length > 0 && (
           <div className="order-summary-section">
             <h2 className="order-summary-title">Order Summary</h2>
@@ -124,6 +166,15 @@ export default function CartPage() {
               <span>₹{delivery.toFixed(2)}</span>
             </div>
             
+            {/* Display potential eco points */}
+            <div className="summary-row eco-points">
+              <span>Potential EcoPoints</span>
+              <span className="points-value">
+                {localStorage.getItem('totalScore') ? 
+                  Math.round(Number(localStorage.getItem('totalScore'))) : 0}
+              </span>
+            </div>
+            
             <div className="summary-divider"></div>
             
             <div className="summary-row total">
@@ -131,7 +182,9 @@ export default function CartPage() {
               <span>₹{orderTotal}</span>
             </div>
             
-            <button className="checkout-btn">Proceed to Checkout</button>
+            <button className="checkout-btn" onClick={onCheckout}>
+              Proceed to Checkout
+            </button>
             
             <div className="promo-code">
               <input type="text" placeholder="Enter promo code" />

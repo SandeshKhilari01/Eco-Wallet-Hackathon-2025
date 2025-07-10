@@ -38,8 +38,10 @@ const SustainableRecommendations = ({ userAddress }) => {
         cart.forEach((item, index) => {
           scoresMap[item.id] = scores[index];
           totalScore += scores[index].score;
-          localStorage.setItem("totalScore", totalScore);
         });
+        
+        // Store the totalScore in localStorage
+        localStorage.setItem("totalScore", totalScore);
         
         // Calculate average score
         const avgScore = cart.length > 0 ? totalScore / cart.length : 0;
@@ -116,6 +118,17 @@ const SustainableRecommendations = ({ userAddress }) => {
               'Your cart has a moderate environmental impact. See our recommendations below.' :
               'Your cart has opportunities for improvement. Check out our eco-friendly alternatives.'}
         </p>
+      </div>
+
+      {/* Eco Points Preview */}
+      <div className="eco-points-preview">
+        <div className="eco-points-icon">
+          <Leaf size={20} />
+        </div>
+        <div className="eco-points-text">
+          <p>Potential EcoPoints: <span className="points-value">{Math.round(Number(localStorage.getItem("totalScore")) || 0)}</span></p>
+          <p className="points-description">Complete your purchase to earn these points!</p>
+        </div>
       </div>
 
       {recommendations.length > 0 && (

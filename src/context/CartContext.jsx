@@ -1,3 +1,4 @@
+// src/context/CartContext.jsx
 import React, { createContext, useState, useEffect } from 'react';
 
 export const CartContext = createContext();
@@ -6,6 +7,8 @@ export function CartContextProvider({ children }) {
   const [cart, setCart] = useState([]); // [{id, quantity, ...product}]
   const [ecoPoints, setEcoPoints] = useState(0);
   const [showEcoWallet, setShowEcoWallet] = useState(false);
+  const [applyEcoDiscount, setApplyEcoDiscount] = useState(false);
+  const [appliedEcoPoints, setAppliedEcoPoints] = useState(0);
 
   // Load ecopoints from localStorage on initial render
   useEffect(() => {
@@ -45,7 +48,11 @@ export function CartContextProvider({ children }) {
     );
   };
 
-  const clearCart = () => setCart([]);
+  const clearCart = () => {
+    setCart([]);
+    setApplyEcoDiscount(false);
+    setAppliedEcoPoints(0);
+  };
 
   const cartCount = cart.reduce((sum, item) => sum + item.quantity, 0);
 
@@ -58,14 +65,51 @@ export function CartContextProvider({ children }) {
     }, 0);
   };
 
+  // Calculate ecopoints discount (0.25 rupees per point)
+  const calculateEcoDiscount = (pointsToUse) => {
+    return pointsToUse * 0.25;
+  };
+
+  // Get max available points that can be used
+  const getMaxUsablePoints = (orderTotal) => {
+    // Don't allow more discount than the order total
+    const maxDiscountPoints = Math.floor(orderTotal / 0.25);
+    return Math.min(ecoPoints, maxDiscountPoints);
+  };
+
+  // Toggle eco discount application
+  const toggleEcoDiscount = (orderTotal) => {
+    if (!applyEcoDiscount) {
+      const pointsToUse = getMaxUsablePoints(orderTotal);
+      setAppliedEcoPoints(pointsToUse);
+      setApplyEcoDiscount(true);
+    } else {
+      setAppliedEcoPoints(0);
+      setApplyEcoDiscount(false);
+    }
+  };
+
   // Add ecopoints to wallet
   const addEcoPoints = (points) => {
     setEcoPoints(prev => prev + points);
   };
 
+  // Use ecopoints for discount
+  const useEcoPoints = (points) => {
+    setEcoPoints(prev => prev - points);
+  };
+
   // Handle checkout and award points
   const handleCheckout = () => {
     const pointsToAdd = calculatePotentialEcoPoints();
+    
+    // Apply eco discount if selected - this needs to happen BEFORE clearing the cart
+    if (applyEcoDiscount && appliedEcoPoints > 0) {
+      // Use the ecopoints (reduce from wallet)
+      useEcoPoints(appliedEcoPoints);
+    }
+    
+    // Add points from potential ecopoints in cart
     addEcoPoints(pointsToAdd);
     
     // You would typically process the order here before clearing the cart
@@ -94,7 +138,13 @@ export function CartContextProvider({ children }) {
       calculatePotentialEcoPoints,
       handleCheckout,
       showEcoWallet,
-      toggleEcoWallet
+      toggleEcoWallet,
+      applyEcoDiscount,
+      toggleEcoDiscount,
+      appliedEcoPoints,
+      calculateEcoDiscount,
+      getMaxUsablePoints,
+      useEcoPoints
     }}>
       {children}
     </CartContext.Provider>

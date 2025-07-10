@@ -602,3 +602,120 @@
   color: #059669;
   margin-top: 2px;
 }
+
+/* Add these styles to your existing SustainableRecommendations.css file */
+
+.add-recommendation-btn {
+  width: 100%;
+  background-color: #10b981;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 16px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  position: relative;
+  overflow: hidden;
+}
+
+.add-recommendation-btn:hover {
+  background-color: #059669;
+  transform: translateY(-2px);
+}
+
+.add-recommendation-btn:active {
+  transform: translateY(0);
+}
+
+.cart-icon {
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.check-icon {
+  position: absolute;
+  right: 16px;
+  opacity: 0;
+  transform: scale(0);
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.add-recommendation-btn:hover .cart-icon {
+  transform: translateX(-4px);
+}
+
+.add-recommendation-btn.added .cart-icon {
+  opacity: 0;
+  transform: translateX(-20px);
+}
+
+.add-recommendation-btn.added .check-icon {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.add-recommendation-btn.added {
+  background-color: #059669;
+}
+
+/* Animation for card removal */
+@keyframes removeCard {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.5;
+    transform: scale(0.95);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0.9);
+    height: 0;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.recommendation-card.removing {
+  animation: removeCard 0.5s forwards;
+}
+
+/* Enhanced hover effects */
+.recommendation-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+  border: 1px solid #e5e7eb;
+}
+
+.recommendation-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  border-color: #10b981;
+}
+
+/* Make the recommendation grid more attractive */
+.recommendations-grid {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* Make the eco badge stand out more */
+.eco-badge {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+  color: white;
+  font-size: 0.7rem;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-weight: 600;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}

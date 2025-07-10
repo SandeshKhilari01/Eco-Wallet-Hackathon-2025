@@ -69,6 +69,17 @@ const SustainableRecommendations = ({ userAddress }) => {
     fetchSustainabilityData();
   }, [cart, userAddress]);
 
+  // Function to handle adding a product to cart and removing it from recommendations
+  const handleAddToCartAndRemove = (product) => {
+    // Add the product to cart
+    addToCart(product.id, product);
+    
+    // Remove the product from recommendations
+    setRecommendations(prevRecommendations => 
+      prevRecommendations.filter(item => item.id !== product.id)
+    );
+  };
+
   const getScoreColor = (score) => {
     if (score >= 70) return '#10b981'; // Green
     if (score >= 40) return '#f59e0b'; // Orange
@@ -149,12 +160,15 @@ const SustainableRecommendations = ({ userAddress }) => {
                     {product.sustainabilityHighlight || product.impact?.emissions || "Eco-friendly"}
                   </p>
                   <p className="recommendation-reason">{product.reason || "Sustainable alternative"}</p>
-                  <button 
-                    className="add-recommendation-btn"
-                    onClick={() => addToCart(product.id, product)}
-                  >
-                    Add to Cart
-                  </button>
+                  
+                  <div className="recommendation-actions">
+                    <button 
+                      className="add-recommendation-btn"
+                      onClick={() => handleAddToCartAndRemove(product)}
+                    >
+                      Add to Cart
+                    </button>
+                  </div>
                 </div>
               </div>
             ))}

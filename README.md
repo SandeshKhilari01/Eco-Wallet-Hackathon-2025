@@ -38,7 +38,7 @@ The system then recommends greener alternatives in real time—making it easy fo
 
 ## Tech Stack
 
-- **Frontend**: React Native
+- **Frontend**: React
 - **Backend**: Node.js with Express
 - **Database**: MongoDB
 - **AI Engine**: Python

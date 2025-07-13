@@ -22,7 +22,7 @@ const UserDetail = () => {
       </div>
       <div className="user-details">
         <h3>Account Details</h3>
-        <ul>
+        <ul className="user-details-list">
           <li><strong>Email:</strong> {user.email}</li>
           <li><strong>Phone:</strong> {user.phone}</li>
           <li><strong>Address:</strong> {user.address}</li>

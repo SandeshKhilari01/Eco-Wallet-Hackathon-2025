@@ -21,7 +21,7 @@ export default function Header({ cartCount, searchQuery, setSearchQuery }) {
               <Link to="/">
                 <img src="https://mindythelion.com/wp-content/uploads/2016/09/walmart-logo-png-6.png" alt="Walmart Logo" className="header-logo-img"/>
               </Link>
-              <h1 className="header-logo">Walmart</h1>
+              <h1 className="header-logo">Walmart EcoCart</h1>
               <button className="header-button">
                 <Menu className="w-5 h-5" />
                 <span>Departments</span>

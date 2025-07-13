@@ -38,6 +38,7 @@
   font-size: 1rem;
 }
 
+
 .user-details h3 {
   margin-bottom: 12px;
   color: #0071dc;
@@ -76,4 +77,25 @@
 
 .user-actions button:hover {
   background: #005cb8;
+}
+
+.user-details-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.user-details-list li {
+  text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  font-size: 1rem;
+  color: #222;
+}
+
+.user-details-list li strong {
+  min-width: 80px;
+  font-weight: 600;
+  color: #444;
 }

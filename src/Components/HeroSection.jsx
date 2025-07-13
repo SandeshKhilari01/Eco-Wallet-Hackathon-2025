@@ -15,7 +15,7 @@ export default function HeroSection() {
             <span className="spark-badge">Sparkathon 2025</span>
             </div>
             <h1 className="text-5xl font-bold mb-6 leading-tight">
-              <span className="block">EcoWallet: Sustainable</span>
+              <span className="block">EcoCart: Sustainable</span>
               <span className="block text-yellow-300">Shopping Rewards</span>
             </h1>
             <p className="text-xl mb-8 opacity-90 max-w-lg">
@@ -27,7 +27,7 @@ export default function HeroSection() {
             </div>
           </div>
           <div className="bg-white rounded-2xl p-8 shadow-2xl text-center">
-            <div className="text-6xl mb-4">🛍️</div>
+            <div className="text-6xl mb-4 justify-center flex items-center">🛍️</div>
             <h3 className="text-2xl font-bold text-gray-800 mb-2">Reedem and earn Special Offers</h3>
             <p className="text-gray-600 mb-4">Up to 50% off on sustainable products</p>
             <button className="hero-button-view"> View Deals </button>
